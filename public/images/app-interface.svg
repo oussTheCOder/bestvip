@@ -1,0 +1,47 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="appBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buttonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0099ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- App Background -->
+  <rect width="400" height="300" fill="url(#appBg)"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="400" height="50" fill="rgba(0, 212, 255, 0.1)"/>
+  <text x="20" y="30" fill="#00d4ff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">StreamVista</text>
+
+  <!-- Content Grid -->
+  <rect x="20" y="70" width="80" height="60" rx="5" fill="rgba(0, 212, 255, 0.2)"/>
+  <rect x="110" y="70" width="80" height="60" rx="5" fill="rgba(0, 153, 255, 0.2)"/>
+  <rect x="200" y="70" width="80" height="60" rx="5" fill="rgba(0, 212, 255, 0.2)"/>
+  <rect x="290" y="70" width="80" height="60" rx="5" fill="rgba(0, 153, 255, 0.2)"/>
+
+  <rect x="20" y="140" width="80" height="60" rx="5" fill="rgba(0, 153, 255, 0.2)"/>
+  <rect x="110" y="140" width="80" height="60" rx="5" fill="rgba(0, 212, 255, 0.2)"/>
+  <rect x="200" y="140" width="80" height="60" rx="5" fill="rgba(0, 153, 255, 0.2)"/>
+  <rect x="290" y="140" width="80" height="60" rx="5" fill="rgba(0, 212, 255, 0.2)"/>
+
+  <!-- Play button overlay on first item -->
+  <circle cx="60" cy="100" r="15" fill="url(#buttonGradient)" opacity="0.9"/>
+  <polygon points="55,93 67,100 55,107" fill="white"/>
+
+  <!-- Channel labels -->
+  <text x="60" y="185" text-anchor="middle" fill="#b0b0b0" font-family="Arial, sans-serif" font-size="10">Sports</text>
+  <text x="150" y="185" text-anchor="middle" fill="#b0b0b0" font-family="Arial, sans-serif" font-size="10">Movies</text>
+  <text x="240" y="185" text-anchor="middle" fill="#b0b0b0" font-family="Arial, sans-serif" font-size="10">Series</text>
+  <text x="330" y="185" text-anchor="middle" fill="#b0b0b0" font-family="Arial, sans-serif" font-size="10">News</text>
+
+  <!-- Bottom Navigation -->
+  <rect x="0" y="250" width="400" height="50" fill="rgba(0, 212, 255, 0.1)"/>
+  <circle cx="60" cy="275" r="12" fill="#00d4ff"/>
+  <text x="120" y="280" fill="#b0b0b0" font-family="Arial, sans-serif" font-size="12">Live TV</text>
+  <text x="200" y="280" fill="#b0b0b0" font-family="Arial, sans-serif" font-size="12">Movies</text>
+  <text x="280" y="280" fill="#b0b0b0" font-family="Arial, sans-serif" font-size="12">Settings</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a14;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#0099ff;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#heroBg)"/>
+
+  <!-- Glowing orbs -->
+  <circle cx="300" cy="200" r="150" fill="url(#glow)" opacity="0.6"/>
+  <circle cx="1600" cy="400" r="200" fill="url(#glow)" opacity="0.4"/>
+  <circle cx="800" cy="800" r="180" fill="url(#glow)" opacity="0.5"/>
+
+  <!-- Geometric shapes -->
+  <polygon points="100,100 200,50 250,150 150,200" fill="rgba(0, 212, 255, 0.1)" opacity="0.3"/>
+  <polygon points="1500,200 1600,150 1650,250 1550,300" fill="rgba(0, 153, 255, 0.1)" opacity="0.3"/>
+  <polygon points="700,600 800,550 850,650 750,700" fill="rgba(0, 212, 255, 0.1)" opacity="0.3"/>
+
+  <!-- Streaming particles -->
+  <circle cx="400" cy="300" r="3" fill="#00d4ff" opacity="0.8"/>
+  <circle cx="420" cy="320" r="2" fill="#0099ff" opacity="0.6"/>
+  <circle cx="440" cy="340" r="3" fill="#00d4ff" opacity="0.8"/>
+  <circle cx="460" cy="360" r="2" fill="#0099ff" opacity="0.6"/>
+  <circle cx="480" cy="380" r="3" fill="#00d4ff" opacity="0.8"/>
+
+  <circle cx="1400" cy="500" r="3" fill="#00d4ff" opacity="0.8"/>
+  <circle cx="1420" cy="520" r="2" fill="#0099ff" opacity="0.6"/>
+  <circle cx="1440" cy="540" r="3" fill="#00d4ff" opacity="0.8"/>
+  <circle cx="1460" cy="560" r="2" fill="#0099ff" opacity="0.6"/>
+  <circle cx="1480" cy="580" r="3" fill="#00d4ff" opacity="0.8"/>
+
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+    <path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(0, 212, 255, 0.05)" stroke-width="1"/>
+  </pattern>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+</svg>

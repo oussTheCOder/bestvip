@@ -1,0 +1,72 @@
+<svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#001a33;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003366;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#0099ff;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1000" height="500" fill="url(#bgGradient)"/>
+  
+  <!-- Desktop Monitor (Center) -->
+  <g filter="drop-shadow(0 20px 40px rgba(0,212,255,0.3))">
+    <!-- Monitor Stand -->
+    <rect x="300" y="340" width="400" height="30" rx="5" fill="#1a1a2e"/>
+    <rect x="450" y="360" width="100" height="40" rx="5" fill="#0a0a1a"/>
+    
+    <!-- Monitor Frame -->
+    <rect x="300" y="80" width="400" height="260" rx="8" fill="#0a0a1a" stroke="#00d4ff" stroke-width="8"/>
+    
+    <!-- Screen -->
+    <rect x="310" y="90" width="380" height="240" rx="4" fill="url(#screenGlow)"/>
+    <rect x="310" y="90" width="380" height="240" rx="4" fill="#000" opacity="0.5"/>
+    
+    <!-- Content on screen -->
+    <circle cx="380" cy="130" r="8" fill="#00d4ff"/>
+    <rect x="310" y="150" width="140" height="8" fill="#00d4ff" opacity="0.7"/>
+    <rect x="310" y="165" width="180" height="6" fill="#00d4ff" opacity="0.5"/>
+    <rect x="310" y="180" width="160" height="6" fill="#00d4ff" opacity="0.4"/>
+    <rect x="310" y="200" width="360" height="90" rx="4" fill="rgba(0,212,255,0.1)" stroke="#00d4ff" stroke-width="2"/>
+  </g>
+  
+  <!-- Smartphone (Left) -->
+  <g transform="translate(80, 150)" filter="drop-shadow(0 20px 40px rgba(0,212,255,0.3))">
+    <!-- Phone Frame -->
+    <rect x="0" y="0" width="140" height="260" rx="15" fill="#0a0a1a" stroke="#00d4ff" stroke-width="6"/>
+    
+    <!-- Notch -->
+    <rect x="35" y="0" width="70" height="25" rx="0 0 15 15" fill="#000"/>
+    
+    <!-- Screen -->
+    <rect x="8" y="8" width="124" height="240" rx="10" fill="#000" opacity="0.8"/>
+    
+    <!-- Content -->
+    <circle cx="70" cy="40" r="6" fill="#00d4ff"/>
+    <rect x="15" y="60" width="100" height="6" fill="#00d4ff" opacity="0.7"/>
+    <rect x="15" y="72" width="80" height="4" fill="#00d4ff" opacity="0.5"/>
+    <rect x="15" y="85" width="100" height="100" rx="4" fill="rgba(0,212,255,0.1)" stroke="#00d4ff" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Tablet (Right) -->
+  <g transform="translate(760, 150)" filter="drop-shadow(0 20px 40px rgba(0,212,255,0.3))">
+    <!-- Tablet Frame -->
+    <rect x="0" y="0" width="160" height="220" rx="12" fill="#0a0a1a" stroke="#00d4ff" stroke-width="6"/>
+    
+    <!-- Screen -->
+    <rect x="8" y="8" width="144" height="204" rx="8" fill="#000" opacity="0.8"/>
+    
+    <!-- Content -->
+    <circle cx="80" cy="40" r="7" fill="#00d4ff"/>
+    <rect x="15" y="60" width="130" height="7" fill="#00d4ff" opacity="0.7"/>
+    <rect x="15" y="72" width="100" height="5" fill="#00d4ff" opacity="0.5"/>
+    <rect x="15" y="85" width="130" height="90" rx="4" fill="rgba(0,212,255,0.1)" stroke="#00d4ff" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Connecting Lines -->
+  <line x1="220" y1="280" x2="300" y2="220" stroke="#00d4ff" stroke-width="2" opacity="0.3" stroke-dasharray="5,5"/>
+  <line x1="780" y1="280" x2="700" y2="220" stroke="#00d4ff" stroke-width="2" opacity="0.3" stroke-dasharray="5,5"/>
+</svg>
