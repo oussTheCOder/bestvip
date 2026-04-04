@@ -28,7 +28,7 @@ const About: React.FC = () => {
                 <link
                     rel="alternate"
                     hrefLang="x-default"
-                    href={`${process.env.NEXT_PUBLIC_SITE_URL || 'https://yourdomain.com'}/nl/about`}
+                    href={`${process.env.NEXT_PUBLIC_SITE_URL || 'https://yourdomain.com'}/about`}
                 />
             </Head>
             <Header />

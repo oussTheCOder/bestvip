@@ -33,7 +33,7 @@ const Home: React.FC = () => {
         <link
           rel="alternate"
           hrefLang="x-default"
-          href={`${process.env.NEXT_PUBLIC_SITE_URL || 'https://yourdomain.com'}/nl`}
+          href={`${process.env.NEXT_PUBLIC_SITE_URL || 'https://yourdomain.com'}`}
         />
       </Head>
       <Header />

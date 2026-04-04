@@ -9,14 +9,15 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "@swc/helpers": "^0.5.15",
+    "next": "16.2.2",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
-    "@types/node": "latest"
+    "typescript": "5.9.3",
+    "@types/react": "19.2.2",
+    "@types/node": "24.5.2"
   },
   "license": "MIT"
 }

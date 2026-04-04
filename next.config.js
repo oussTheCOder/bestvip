@@ -8,13 +8,7 @@ module.exports = {
     defaultLocale: 'nl',
     localeDetection: false, // We'll handle detection manually
   },
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/nl',
-        permanent: true,
-      },
-    ];
+  turbopack: {
+    root: __dirname,
   },
 };
