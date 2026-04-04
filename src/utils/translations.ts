@@ -9,10 +9,10 @@ export const translations = {
     navAbout: "Over Ons",
 
     // Hero Section
-    heroTitle: "🎬 Premium StreamHub IPTV Service",
-    heroSubtitle: "Toegang tot 24.000+ live kanalen, 160.000+ films en series, allemaal legaal en veilig. Stream in HD, FHD, en 4K kwaliteit.",
+    heroTitle: "🎬 IPTV Belgie & Nederland Abonnement",
+    heroSubtitle: "Jouw IPTV Belgie abonnement voor België en Nederland. Bestel je abonnement iptv, iptv kopen en kijk program iptv met 24.000+ kanalen in HD, FHD en 4K.",
     heroButton1: "Nu Aanmelden",
-    heroButton2: "Meer Weten",
+    heroButton2: "Bekijk Abonnementen",
     heroStat1: "24.000+",
     heroStat1Label: "Live Kanalen",
     heroStat2: "160.000+",
@@ -21,27 +21,27 @@ export const translations = {
     heroStat3Label: "Ultra HD Streaming",
 
     // Features Section
-    featuresTitle: "Waarom Voor Ons Kiezen?",
+    featuresTitle: "Waarom kiezen voor IPTV Belgie?",
     features: [
       {
         icon: "🎬",
-        title: "Uitgebreide Content Bibliotheek",
-        description: "Toegang tot 24.000+ live kanalen en 160.000+ films en TV series"
+        title: "Grote IPTV Belgie Bibliotheek",
+        description: "IPTV Belgie met duizenden live kanalen, films en series voor elk apparaat."
       },
       {
         icon: "🎞️",
-        title: "4K Kwaliteit",
-        description: "Stream in HD, FHD, en 4K voor de beste kijkervaring"
+        title: "Flexibel IPTV Abonnement",
+        description: "Kies het juiste abonnement iptv voor Belgie of Nederland met snelle activatie."
       },
       {
         icon: "⚡",
-        title: "Geen Buffering",
-        description: "Ultra-snelle servers met zero buffering voor vloeiende streaming"
+        title: "Snel IPTV Kopen",
+        description: "Bestel en activeer je iptv kopen pakket direct, zonder gedoe."
       },
       {
         icon: "🔒",
-        title: "100% Legaal & Veilig",
-        description: "Volledig compliant met alle legale eisen en voorschriften"
+        title: "100% Veilig",
+        description: "Stabiele IPTV Belgie streaming met hoge kwaliteit en betrouwbare servers."
       },
       {
         icon: "💻",
@@ -51,7 +51,7 @@ export const translations = {
       {
         icon: "🛡️",
         title: "24/7 Ondersteuning",
-        description: "Toegewijde ondersteuningsteam beschikbaar 24 uur per dag"
+        description: "Ons team helpt je altijd met iptv bestelvragen, installatie en gebruik."
       }
     ],
 
@@ -60,8 +60,8 @@ export const translations = {
     appPreview: "App Interface Preview",
 
     // Pricing Section
-    pricingTitle: "Eenvoudige, Transparante Prijzen",
-    pricingSubtitle: "Kies het abonnement dat het beste bij je past",
+    pricingTitle: "IPTV Belgie Prijzen",
+    pricingSubtitle: "Kies het IPTV abonnement Belgie dat het beste bij je past",
     standardLabel: "Standaard",
     premiumLabel: "Premium",
     mostPopular: "MEEST POPULAIR",
@@ -196,31 +196,31 @@ export const translations = {
     ],
 
     // How It Works
-    howItWorksTitle: "Hoe Het Werkt",
+    howItWorksTitle: "Hoe Werkt IPTV Belgie?",
     howItWorksSteps: [
       {
         number: 1,
         icon: "🛒",
-        title: "Kies Je Abonnement",
-        description: "Selecteer het abonnement dat het beste bij je behoeften past"
+        title: "Kies Je IPTV Abonnement",
+        description: "Selecteer je IPTV Belgie abonnement en beslis of je iptv kopen wilt voor 1 maand of langer."
       },
       {
         number: 2,
         icon: "📧",
-        title: "Ontvang Inloggegevens",
-        description: "Ontvang je inloggegevens direct via e-mail"
+        title: "Ontvang Je Login",
+        description: "Je ontvangt je IPTV Belgie gegevens direct per e-mail, klaar voor gebruik."
       },
       {
         number: 3,
         icon: "📱",
-        title: "Download App",
-        description: "Installeer de app op je gewenste apparaat"
+        title: "Installeer Op Je Apparaat",
+        description: "Krijg toegang tot je IPTV Belgie program op Smart TV, telefoon, tablet of laptop."
       },
       {
         number: 4,
         icon: "🎉",
-        title: "Geniet van Streaming",
-        description: "Begin met kijken naar je favoriete kanalen en content"
+        title: "Geniet van IPTV",
+        description: "Start je iptv belgie streaming en bekijk je favoriete program iptv zonder gedoe."
       }
     ],
 
@@ -275,36 +275,36 @@ export const translations = {
     faqTitle: "Veelgestelde Vragen",
     faqs: [
       {
-        question: "Wanneer ontvang ik mijn inloggegevens?",
-        answer: "We verwerken alle bestellingen handmatig en meestal worden de inloggegevens direct per e-mail geleverd. Controleer je spam-map als je het niet ziet. Bij piekuren kan het iets langer duren. Bedankt voor je geduld!"
+        question: "Wanneer ontvang ik mijn IPTV Belgie login?",
+        answer: "We verwerken bestellingen snel en meestal wordt je IPTV Belgie login direct per e-mail geleverd. Controleer je spam-map als je het niet ziet."
       },
       {
-        question: "Welke apparaten worden ondersteund?",
-        answer: "Onze service werkt op alle apparaten! Smart TV's, Android telefoons, iPhones, tablets, laptops, en meer. Je kunt onze app installeren of gebruik maken van M3U, MAG, en Enigma2 protocollen."
+        question: "Welke apparaten ondersteunt IPTV Belgie?",
+        answer: "Onze IPTV Belgie service werkt op Smart TV's, Android telefoons, iPhones, tablets, laptops en meer. Je kunt onze app gebruiken of M3U, MAG en Enigma2 protocollen."
       },
       {
-        question: "Is het eenvoudig in te stellen?",
-        answer: "Ja! Setup is heel eenvoudig. Zodra je je inloggegevens ontvangt, log je gewoon in op de app op je apparaat. Onze handleiding leidt je door elke stap. Hulp nodig? Ons 24/7 ondersteuningsteam staat klaar!"
+        question: "Hoe werkt een IPTV abonnement Belgie?",
+        answer: "Kies je pakket, ontvang je login, installeer de app en start met kijken. Je IPTV abonnement Belgie werkt binnen enkele minuten."
       },
       {
         question: "Wat als ik niet tevreden ben?",
-        answer: "We bieden een 7-dagen geld-terug-garantie. Als je niet volledig tevreden bent met onze service, neem dan contact met ons op binnen 7 dagen en we verwerken een volledige terugbetaling. Geen vragen gesteld!"
+        answer: "We bieden een 7-dagen geld-terug-garantie. Als je niet tevreden bent met je IPTV Belgie service, neem je binnen 7 dagen contact op voor een volledige terugbetaling."
       },
       {
         question: "Bieden jullie multi-apparaat ondersteuning?",
-        answer: "Ja! Al onze abonnementen ondersteunen 2 apparaten (5 voor Premium). Als je meer nodig hebt, bieden we multi-apparaat pakketten. Neem contact op via WhatsApp voor details."
+        answer: "Ja! Al onze abonnementen ondersteunen 2 apparaten (5 voor Premium). Als je meer nodig hebt, hebben we extra multi-apparaat pakketten. Neem contact op via WhatsApp voor details."
       },
       {
-        question: "Is jullie service legaal?",
-        answer: "Absoluut! Onze service opereert binnen alle juridische kaders en voorschriften. We bieden alleen gelicentieerde content die compliant is met lokale wetten."
+        question: "Is jouw IPTV Belgie service veilig?",
+        answer: "Ja! Onze service is ontworpen voor stabiele, betrouwbare IPTV Belgie streaming en biedt content die voldoet aan lokale normen."
       },
       {
         question: "Hebben jullie klantenservice?",
-        answer: "Natuurlijk! We hebben 24/7 klantenservice. Neem contact op via WhatsApp voor het snelste antwoord. Ons team is toegewijd om je problemen zo snel mogelijk op te lossen."
+        answer: "Natuurlijk! We hebben 24/7 klantenservice voor IPTV Belgie. Neem contact op via WhatsApp voor het snelste antwoord."
       },
       {
         question: "Is er buffering?",
-        answer: "Nee! We gebruiken snelle en stabiele servers met anti-freeze technologie om zero buffering te garanderen. Je krijgt vloeiende, ononderbroken streaming op al je apparaten."
+        answer: "Nee! We gebruiken snelle en stabiele servers met anti-freeze technologie om zero buffering voor IPTV Belgie te garanderen."
       }
     ],
 
@@ -313,25 +313,25 @@ export const translations = {
     footerCTASubtitle: "Sluit je aan bij duizenden tevreden klanten in België en Nederland",
     footerButton: "Bekijk Prijsplannen",
     footerCopyright: "© {year} StreamHub IPTV Service. Alle rechten voorbehouden.",
-    footerTagline: "Premium streaming voor België & Nederland",
+    footerTagline: "Premium abonnement IPTV voor België & Nederland",
 
     // About Page
-    aboutTitle: "Over Juridisch IPTV",
+    aboutTitle: "Over IPTV Belgie",
     aboutMissionTitle: "Onze Missie",
-    aboutMissionText: "Om premium, legale IPTV streaming te bieden aan klanten in België en Nederland, met ongeëvenaarde kwaliteit, betrouwbaarheid, en klantenservice. We geloven dat iedereen recht heeft op toegang tot kwaliteit entertainment terwijl we de rechten van contentmakers respecteren.",
+    aboutMissionText: "Om het beste IPTV Belgie abonnement te bieden voor klanten in België en Nederland, met betrouwbare kwaliteit, snelle service en eenvoudige installatie. We maken het makkelijk om IPTV te kopen en direct te kijken.",
     aboutWhyTitle: "Waarom Voor Ons Kiezen?",
     aboutFeatures: [
       {
-        title: "✅ 100% Legaal",
-        description: "Onze service opereert binnen alle juridische kaders. Je kunt met vertrouwen streamen."
+        title: "✅ 100% Veilig",
+        description: "Onze IPTV Belgie service is gebouwd voor betrouwbare streaming die je met vertrouwen kunt gebruiken."
       },
       {
         title: "🚀 Premium Kwaliteit",
-        description: "Stream in tot 4K kwaliteit op ultra-snelle servers ontworpen voor ononderbroken kijken."
+        description: "Stream in tot 4K kwaliteit op ultra-snelle servers ontworpen voor ononderbroken IPTV Belgie kijken."
       },
       {
         title: "🎯 Klantgericht",
-        description: "Ons 24/7 ondersteuningsteam is altijd klaar om te helpen met vragen of technische problemen."
+        description: "Ons 24/7 ondersteuningsteam helpt je met IPTV Belgie vragen, installatie en gebruik."
       }
     ],
     aboutWhatWeOffer: "Wat We Bieden",
@@ -361,7 +361,7 @@ export const translations = {
 
     // Hero Section
     heroTitle: "🎬 Premium StreamHub IPTV Service",
-    heroSubtitle: "Access 24,000+ live channels, 160,000+ movies and series, all legal and secure. Stream in HD, FHD, and 4K quality.",
+    heroSubtitle: "Access 24,000+ live channels, 160,000+ movies and series. Stream in HD, FHD, and 4K quality.",
     heroButton1: "Get Started Now",
     heroButton2: "Learn More",
     heroStat1: "24,000+",
@@ -391,8 +391,8 @@ export const translations = {
       },
       {
         icon: "🔒",
-        title: "100% Legal & Safe",
-        description: "Fully compliant with all legal requirements and regulations"
+        title: "100% Safe",
+        description: "Fully compliant with all requirements and regulations"
       },
       {
         icon: "💻",
@@ -646,8 +646,8 @@ export const translations = {
         answer: "Yes! All our plans include support for 2 devices (5 for Premium). If you need more, we offer multi-device packages. Contact us on WhatsApp for details."
       },
       {
-        question: "Is your service legal?",
-        answer: "Absolutely! Our service operates within all legal frameworks and regulations. We only offer licensed content that complies with local laws."
+        question: "Is your service safe?",
+        answer: "Absolutely! Our service is designed for stable, reliable IPTV streaming and delivers content that meets relevant local standards."
       },
       {
         question: "Do you have customer support?",
@@ -667,14 +667,14 @@ export const translations = {
     footerTagline: "Premium streaming for Belgium & Netherlands",
 
     // About Page
-    aboutTitle: "About Legal IPTV",
+    aboutTitle: "About IPTV",
     aboutMissionTitle: "Our Mission",
-    aboutMissionText: "To provide premium, legal IPTV streaming to customers across Belgium and the Netherlands, with uncompromising quality, reliability, and customer support. We believe everyone deserves access to quality entertainment while respecting content creators' rights.",
+    aboutMissionText: "To provide premium IPTV streaming to customers across Belgium and the Netherlands, with uncompromising quality, reliability, and customer support. We believe everyone deserves access to quality entertainment while respecting content creators' rights.",
     aboutWhyTitle: "Why Choose Us?",
     aboutFeatures: [
       {
-        title: "✅ 100% Legal",
-        description: "Our service operates within all legal frameworks. You can stream with confidence."
+        title: "✅ 100% Safe",
+        description: "Our service is designed for reliable IPTV streaming you can trust."
       },
       {
         title: "🚀 Premium Quality",

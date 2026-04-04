@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhatsAppCTA: React.FC = () => {
     const whatsappNumber = '+1234567890';
-    const message = 'Hello, I am interested in your legal IPTV service!';
+    const message = 'Hello, I am interested in your IPTV service!';
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
     return (

@@ -2,7 +2,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const whatsappNumber = process.env.WHATSAPP_NUMBER || '';
-  const message = 'Hello, I am interested in your legal IPTV service.';
+  const message = 'Hello, I am interested in your IPTV service.';
 
   if (req.method === 'GET') {
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;

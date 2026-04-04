@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -10,6 +11,11 @@ const About: React.FC = () => {
 
     return (
         <div>
+            <Head>
+                <title>Over IPTV Belgie | Abonnement IPTV België & Nederland</title>
+                <meta name="description" content="Lees alles over ons IPTV Belgie abonnement voor België en Nederland. We bieden abonnement iptv, iptv kopen en iptv belgique opties met veilige streaming." />
+                <meta name="keywords" content="iptv belgie, abonnement iptv, iptv kopen, program iptv, iptv abonnement, iptv belgique" />
+            </Head>
             <Header />
             <main>
                 {/* Hero Section */}
@@ -31,7 +37,7 @@ const About: React.FC = () => {
                             maxWidth: '700px',
                             margin: '0 auto'
                         }}>
-                            Your trusted IPTV streaming partner with premium content, legal compliance, and exceptional customer service.
+                            Ontdek IPTV Belgie met premium content, snelle activatie en persoonlijke ondersteuning voor klanten in België en Nederland.
                         </p>
                     </div>
                 </section>
