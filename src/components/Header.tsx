@@ -63,6 +63,21 @@ const Header: React.FC = () => {
                                 }}>
                                 {t('languageEN')}
                             </button>
+                            <button
+                                onClick={() => setLanguage('fr')}
+                                style={{
+                                    padding: '6px 12px',
+                                    border: 'none',
+                                    borderRadius: '20px',
+                                    background: language === 'fr' ? 'linear-gradient(135deg, #00d4ff, #0099ff)' : 'transparent',
+                                    color: language === 'fr' ? '#000' : '#b0b0b0',
+                                    fontWeight: 600,
+                                    cursor: 'pointer',
+                                    fontSize: '0.85rem',
+                                    transition: 'all 0.3s'
+                                }}>
+                                {t('languageFR')}
+                            </button>
                         </div>
                     </div>
                 </div>

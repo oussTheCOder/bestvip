@@ -12,9 +12,9 @@ const About: React.FC = () => {
     return (
         <div>
             <Head>
-                <title>Over IPTV Belgie | Abonnement IPTV België & Nederland</title>
-                <meta name="description" content="Lees alles over ons IPTV Belgie abonnement voor België en Nederland. We bieden abonnement iptv, iptv kopen en iptv belgique opties met veilige streaming." />
-                <meta name="keywords" content="iptv belgie, abonnement iptv, iptv kopen, program iptv, iptv abonnement, iptv belgique" />
+                <title>{content.aboutTitle}</title>
+                <meta name="description" content={content.aboutDescription} />
+                <meta name="keywords" content={content.aboutKeywords} />
             </Head>
             <Header />
             <main>
@@ -37,7 +37,7 @@ const About: React.FC = () => {
                             maxWidth: '700px',
                             margin: '0 auto'
                         }}>
-                            Ontdek IPTV Belgie met premium content, snelle activatie en persoonlijke ondersteuning voor klanten in België en Nederland.
+                            {content.aboutIntro}
                         </p>
                     </div>
                 </section>
@@ -188,14 +188,14 @@ const About: React.FC = () => {
                                 marginBottom: '20px',
                                 color: '#000'
                             }}>
-                                Ready to Stream?
+                                {content.aboutCTAHeading}
                             </h2>
                             <p style={{
                                 fontSize: '1.1rem',
                                 marginBottom: '35px',
                                 color: 'rgba(0, 0, 0, 0.8)'
                             }}>
-                                Join thousands of satisfied customers enjoying premium IPTV service today.
+                                {content.aboutCTAText}
                             </p>
                             <a href="/" style={{
                                 display: 'inline-block',
@@ -215,7 +215,7 @@ const About: React.FC = () => {
                             onMouseLeave={(e) => {
                                 e.currentTarget.style.background = '#000';
                             }}>
-                                View Pricing Plans
+                                {content.aboutCTAButton}
                             </a>
                         </div>
                     </div>

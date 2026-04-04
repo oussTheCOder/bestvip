@@ -2,15 +2,15 @@
 export const translations = {
   nl: {
     // Header & Navigation
-    headerTitle: "🎬 StreamHub IPTV",
+    headerTitle: "🎬 StreamBe IPTV",
     navHome: "Home",
     navPricing: "Prijzen",
     navWhy: "Waarom Ons",
     navAbout: "Over Ons",
 
     // Hero Section
-    heroTitle: "🎬 IPTV Belgie & Nederland Abonnement",
-    heroSubtitle: "Jouw IPTV Belgie abonnement voor België en Nederland. Bestel je abonnement iptv, iptv kopen en kijk program iptv met 24.000+ kanalen in HD, FHD en 4K.",
+    heroTitle: "🎬 StreamBe IPTV België & Nederland",
+    heroSubtitle: "Kies het beste IPTV abonnement voor België en Nederland. IPTV kopen is snel geregeld met directe activering, 24.000+ live kanalen en een heldere kijkervaring.",
     heroButton1: "Nu Aanmelden",
     heroButton2: "Bekijk Abonnementen",
     heroStat1: "24.000+",
@@ -21,37 +21,37 @@ export const translations = {
     heroStat3Label: "Ultra HD Streaming",
 
     // Features Section
-    featuresTitle: "Waarom kiezen voor IPTV Belgie?",
+    featuresTitle: "Waarom kiezen voor StreamBe IPTV?",
     features: [
       {
         icon: "🎬",
-        title: "Grote IPTV Belgie Bibliotheek",
-        description: "IPTV Belgie met duizenden live kanalen, films en series voor elk apparaat."
+        title: "Groot IPTV België aanbod",
+        description: "StreamBe biedt IPTV Belgie zenders, films en series voor elk apparaat."
       },
       {
         icon: "🎞️",
-        title: "Flexibel IPTV Abonnement",
-        description: "Kies het juiste abonnement iptv voor Belgie of Nederland met snelle activatie."
+        title: "Flexibel IPTV abonnement",
+        description: "Kies het juiste abonnement iptv voor België of Nederland met snelle activering."
       },
       {
         icon: "⚡",
-        title: "Snel IPTV Kopen",
-        description: "Bestel en activeer je iptv kopen pakket direct, zonder gedoe."
+        title: "Eenvoudig IPTV kopen",
+        description: "Bestel je IPTV kopen pakket direct en begin meteen met kijken."
       },
       {
         icon: "🔒",
-        title: "100% Veilig",
-        description: "Stabiele IPTV Belgie streaming met hoge kwaliteit en betrouwbare servers."
+        title: "Stabiele verbinding",
+        description: "Geniet van een betrouwbare IPTV streaming ervaring met minimale buffering."
       },
       {
         icon: "💻",
-        title: "Alle Apparaten",
-        description: "Werkt op Smart TV, Telefoon, Tablet, Laptop, en meer"
+        title: "Ondersteuning op alle apparaten",
+        description: "Werkt op Smart TV, telefoon, tablet, laptop en meer."
       },
       {
         icon: "🛡️",
-        title: "24/7 Ondersteuning",
-        description: "Ons team helpt je altijd met iptv bestelvragen, installatie en gebruik."
+        title: "24/7 klantenservice",
+        description: "Ons team helpt je altijd met IPTV installatie, vragen en instellingen."
       }
     ],
 
@@ -60,8 +60,8 @@ export const translations = {
     appPreview: "App Interface Preview",
 
     // Pricing Section
-    pricingTitle: "IPTV Belgie Prijzen",
-    pricingSubtitle: "Kies het IPTV abonnement Belgie dat het beste bij je past",
+    pricingTitle: "IPTV België abonnementen",
+    pricingSubtitle: "Kies het IPTV abonnement dat bij je past en start meteen met streamen.",
     standardLabel: "Standaard",
     premiumLabel: "Premium",
     mostPopular: "MEEST POPULAIR",
@@ -196,31 +196,32 @@ export const translations = {
     ],
 
     // How It Works
-    howItWorksTitle: "Hoe Werkt IPTV Belgie?",
+    howItWorksTitle: "Hoe werkt StreamBe IPTV?",
+    stepLabel: "Stap",
     howItWorksSteps: [
       {
         number: 1,
         icon: "🛒",
-        title: "Kies Je IPTV Abonnement",
-        description: "Selecteer je IPTV Belgie abonnement en beslis of je iptv kopen wilt voor 1 maand of langer."
+        title: "Kies je IPTV abonnement",
+        description: "Selecteer het juiste abonnement iptv voor België of Nederland en kies het gewenste pakket."
       },
       {
         number: 2,
         icon: "📧",
-        title: "Ontvang Je Login",
-        description: "Je ontvangt je IPTV Belgie gegevens direct per e-mail, klaar voor gebruik."
+        title: "Ontvang je gegevens",
+        description: "Je ontvangt je streamgegevens direct per e-mail, zodat je snel IPTV België kunt kijken."
       },
       {
         number: 3,
         icon: "📱",
-        title: "Installeer Op Je Apparaat",
-        description: "Krijg toegang tot je IPTV Belgie program op Smart TV, telefoon, tablet of laptop."
+        title: "Installeer op je apparaat",
+        description: "Gebruik de app op Smart TV, telefoon, tablet of laptop en start je IPTV ervaring."
       },
       {
         number: 4,
         icon: "🎉",
-        title: "Geniet van IPTV",
-        description: "Start je iptv belgie streaming en bekijk je favoriete program iptv zonder gedoe."
+        title: "Geniet van je pakket",
+        description: "Kijk direct je favoriete zenders met je IPTV abonnement."
       }
     ],
 
@@ -312,13 +313,15 @@ export const translations = {
     footerCTA: "Klaar om te beginnen?",
     footerCTASubtitle: "Sluit je aan bij duizenden tevreden klanten in België en Nederland",
     footerButton: "Bekijk Prijsplannen",
-    footerCopyright: "© {year} StreamHub IPTV Service. Alle rechten voorbehouden.",
+    footerCopyright: "© {year} StreamBe IPTV. Alle rechten voorbehouden.",
     footerTagline: "Premium abonnement IPTV voor België & Nederland",
 
     // About Page
     aboutTitle: "Over IPTV Belgie",
+    aboutDescription: "Lees hoe StreamBe je helpt een IPTV België abonnement te kiezen met snelle activatie en een sterk zenderaanbod.",
+    aboutIntro: "Ontdek StreamBe IPTV België. We maken het makkelijk om een IPTV abonnement te kopen, snel te activeren en meteen te kijken.",
     aboutMissionTitle: "Onze Missie",
-    aboutMissionText: "Om het beste IPTV Belgie abonnement te bieden voor klanten in België en Nederland, met betrouwbare kwaliteit, snelle service en eenvoudige installatie. We maken het makkelijk om IPTV te kopen en direct te kijken.",
+    aboutMissionText: "Om het beste IPTV Belgie abonnement te bieden voor klanten in België en Nederland, met betrouwbare kwaliteit, snelle service en eenvoudige installatie.",
     aboutWhyTitle: "Waarom Voor Ons Kiezen?",
     aboutFeatures: [
       {
@@ -343,27 +346,37 @@ export const translations = {
       "⚡ Zero buffering garantie",
       "🛡️ 24/7 klantenservice"
     ],
+    aboutCTAHeading: "Klaar om te streamen?",
+    aboutCTAText: "Sluit je aan bij duizenden tevreden klanten die vandaag nog premium IPTV gebruiken.",
+    aboutCTAButton: "Bekijk Prijsplannen",
     aboutCTA: "Nu Aanmelden",
+
+    // SEO
+    homeTitle: "StreamBe IPTV België | IPTV abonnement en IPTV kopen",
+    homeDescription: "StreamBe biedt snelle IPTV België abonnementen voor België en Nederland. Kies een IPTV abonnement, koop IPTV en kijk honderden kanalen in HD en 4K.",
+    homeKeywords: "iptv belgie, iptv abonnement, streambe iptv, iptv kopen, belgie iptv",
+    aboutKeywords: "streambe iptv, iptv belgie, iptv abonnement, iptv kopen",
 
     // Language Toggle
     languageToggle: "Taal",
     languageNL: "NL",
-    languageEN: "EN"
+    languageEN: "EN",
+    languageFR: "FR"
   },
 
   en: {
     // Header & Navigation
-    headerTitle: "🎬 StreamHub IPTV",
+    headerTitle: "🎬 StreamBe IPTV",
     navHome: "Home",
     navPricing: "Pricing",
     navWhy: "Why Us",
     navAbout: "About",
 
     // Hero Section
-    heroTitle: "🎬 Premium StreamHub IPTV Service",
-    heroSubtitle: "Access 24,000+ live channels, 160,000+ movies and series. Stream in HD, FHD, and 4K quality.",
-    heroButton1: "Get Started Now",
-    heroButton2: "Learn More",
+    heroTitle: "🎬 StreamBe IPTV Belgium & Netherlands",
+    heroSubtitle: "Choose your IPTV subscription for Belgium and the Netherlands. Buy IPTV with StreamBe for fast activation, 24,000+ live channels and smooth streaming.",
+    heroButton1: "Get Started",
+    heroButton2: "See Plans",
     heroStat1: "24,000+",
     heroStat1Label: "Live Channels",
     heroStat2: "160,000+",
@@ -372,47 +385,47 @@ export const translations = {
     heroStat3Label: "Ultra HD Streaming",
 
     // Features Section
-    featuresTitle: "Why Choose Us?",
+    featuresTitle: "Why choose StreamBe IPTV?",
     features: [
       {
         icon: "🎬",
-        title: "Vast Content Library",
-        description: "Access 24,000+ live channels and 160,000+ movies and TV series"
+        title: "Belgium IPTV lineup",
+        description: "Access IPTV Belgium and Netherlands channels with a strong selection."
       },
       {
         icon: "🎞️",
-        title: "4K Quality",
-        description: "Stream in HD, FHD, and 4K for the best viewing experience"
+        title: "Flexible IPTV subscription",
+        description: "Choose the IPTV abonnement that fits your viewing needs and budget."
       },
       {
         icon: "⚡",
-        title: "No Buffering",
-        description: "Ultra-fast servers with zero buffering for smooth streaming"
+        title: "Buy IPTV quickly",
+        description: "Order your IPTV subscription fast and start watching in minutes."
       },
       {
         icon: "🔒",
-        title: "100% Safe",
-        description: "Fully compliant with all requirements and regulations"
+        title: "Reliable streaming",
+        description: "Stable IPTV delivery with smooth playback and low interruption."
       },
       {
         icon: "💻",
-        title: "All Devices",
-        description: "Works on Smart TV, Phone, Tablet, Laptop, and more"
+        title: "All devices supported",
+        description: "Works on Smart TV, phone, tablet, laptop and more."
       },
       {
         icon: "🛡️",
-        title: "24/7 Support",
-        description: "Dedicated support team available round the clock"
+        title: "24/7 support",
+        description: "Our team is ready to help with setup and any questions."
       }
     ],
 
     // Additional Feature Messages
-    worksOnAllDevices: "Works On All Devices",
-    appPreview: "App Interface Preview",
+    worksOnAllDevices: "Works on all devices",
+    appPreview: "App interface preview",
 
     // Pricing Section
-    pricingTitle: "Simple, Transparent Pricing",
-    pricingSubtitle: "Choose the plan that works best for you",
+    pricingTitle: "IPTV Belgium subscription plans",
+    pricingSubtitle: "Choose the IPTV abonnement that fits your needs.",
     standardLabel: "Standard",
     premiumLabel: "Premium",
     mostPopular: "MOST POPULAR",
@@ -547,31 +560,32 @@ export const translations = {
     ],
 
     // How It Works
-    howItWorksTitle: "How It Works",
+    howItWorksTitle: "How StreamBe IPTV works",
+    stepLabel: "Step",
     howItWorksSteps: [
       {
         number: 1,
         icon: "🛒",
-        title: "Choose Your Plan",
-        description: "Select the subscription plan that fits your needs best"
+        title: "Choose your IPTV subscription",
+        description: "Pick the IPTV abonnement that suits your Belgium or Netherlands viewing needs."
       },
       {
         number: 2,
         icon: "📧",
-        title: "Get Credentials",
-        description: "Receive your login credentials via email instantly"
+        title: "Receive your login",
+        description: "Get your access details by email quickly so you can start IPTV Belgium streaming."
       },
       {
         number: 3,
         icon: "📱",
-        title: "Download App",
-        description: "Install the app on your preferred device"
+        title: "Install on your device",
+        description: "Set up the app on Smart TV, phone, tablet or laptop and start watching."
       },
       {
         number: 4,
         icon: "🎉",
-        title: "Enjoy Streaming",
-        description: "Start watching your favorite channels and content"
+        title: "Enjoy your channels",
+        description: "Start watching live channels and on-demand content with your IPTV subscription."
       }
     ],
 
@@ -663,45 +677,392 @@ export const translations = {
     footerCTA: "Ready to Get Started?",
     footerCTASubtitle: "Join thousands of satisfied customers in Belgium and Netherlands",
     footerButton: "View Pricing Plans",
-    footerCopyright: "© {year} StreamHub IPTV Service. All rights reserved.",
-    footerTagline: "Premium streaming for Belgium & Netherlands",
+    footerCopyright: "© {year} StreamBe IPTV. All rights reserved.",
+    footerTagline: "Premium IPTV streaming for Belgium & Netherlands",
 
     // About Page
-    aboutTitle: "About IPTV",
+    aboutTitle: "About StreamBe IPTV",
+    aboutDescription: "Learn how StreamBe helps you choose the right IPTV Belgium subscription with fast activation and a strong channel lineup.",
+    aboutIntro: "Discover StreamBe IPTV for Belgium. We make it easy to buy an IPTV abonnement, activate quickly, and watch the channels you want.",
     aboutMissionTitle: "Our Mission",
-    aboutMissionText: "To provide premium IPTV streaming to customers across Belgium and the Netherlands, with uncompromising quality, reliability, and customer support. We believe everyone deserves access to quality entertainment while respecting content creators' rights.",
-    aboutWhyTitle: "Why Choose Us?",
+    aboutMissionText: "We help viewers in Belgium and the Netherlands access IPTV subscriptions with fast setup, a wide channel selection, and reliable support.",
+    aboutWhyTitle: "Why StreamBe?",
     aboutFeatures: [
       {
-        title: "✅ 100% Safe",
-        description: "Our service is designed for reliable IPTV streaming you can trust."
+        title: "✅ Fast start",
+        description: "Activate your IPTV subscription within minutes and start watching right away."
       },
       {
-        title: "🚀 Premium Quality",
-        description: "Stream in up to 4K quality on ultra-fast servers designed for uninterrupted viewing."
+        title: "✅ Wide channel lineup",
+        description: "Access thousands of channels and on-demand content."
       },
       {
-        title: "🎯 Customer Focused",
-        description: "Our 24/7 support team is always ready to help with any questions or technical issues."
+        title: "✅ Works on all devices",
+        description: "Watch on Smart TV, Android, iOS, tablet and laptop."
       }
     ],
     aboutWhatWeOffer: "What We Offer",
     aboutOfferings: [
       "📺 24,000+ live TV channels",
-      "🎬 160,000+ movies and TV series",
-      "🎞️ HD, FHD, and 4K streaming quality",
+      "🎬 160,000+ movies and series",
+      "🎞️ HD, FHD and 4K streaming",
       "💻 Support for all devices",
-      "⚡ Zero buffering guarantee",
+      "⚡ Fast connection",
       "🛡️ 24/7 customer support"
     ],
-    aboutCTA: "Get Started Today",
+    aboutCTAHeading: "Ready to Stream?",
+    aboutCTAText: "Join thousands of satisfied customers enjoying premium IPTV streaming today.",
+    aboutCTAButton: "View Pricing Plans",
+    aboutCTA: "Start now",
+
+    // SEO
+    homeTitle: "StreamBe IPTV Belgium | IPTV abonnement and IPTV buy",
+    homeDescription: "StreamBe offers fast IPTV Belgium subscriptions for Belgium and the Netherlands. Choose an IPTV abonnement, buy IPTV and watch hundreds of channels in HD and 4K.",
+    homeKeywords: "iptv belgium, iptv abonnement, streambe iptv, buy iptv, belgium iptv",
+    aboutKeywords: "streambe iptv, iptv belgium, iptv abonnement, buy iptv",
 
     // Language Toggle
     languageToggle: "Language",
     languageNL: "NL",
-    languageEN: "EN"
+    languageEN: "EN",
+    languageFR: "FR"
+  },
+
+  fr: {
+    // Header & Navigation
+    headerTitle: "🎬 StreamBe IPTV",
+    navHome: "Accueil",
+    navPricing: "Tarifs",
+    navWhy: "Pourquoi Nous",
+    navAbout: "À Propos",
+
+    // Hero Section
+    heroTitle: "🎬 StreamBe IPTV Belgique",
+    heroSubtitle: "Choisissez l’abonnement IPTV Belgique pour la Belgique et les Pays-Bas. Acheter un abonnement IPTV est simple avec StreamBe : activation rapide, 24 000+ chaînes en direct et streaming fluide.",
+    heroButton1: "Commencer",
+    heroButton2: "Voir les offres",
+    heroStat1: "24 000+",
+    heroStat1Label: "Chaînes en direct",
+    heroStat2: "160 000+",
+    heroStat2Label: "Films & Séries",
+    heroStat3: "4K",
+    heroStat3Label: "Streaming Ultra HD",
+
+    // Features Section
+    featuresTitle: "Pourquoi choisir StreamBe IPTV ?",
+    features: [
+      {
+        icon: "🎬",
+        title: "Grand choix IPTV Belgique",
+        description: "StreamBe propose IPTV Belgique avec de nombreuses chaînes, films et séries."
+      },
+      {
+        icon: "🎞️",
+        title: "Abonnement IPTV flexible",
+        description: "Choisissez l’abonnement IPTV qui correspond à vos besoins en Belgique et aux Pays-Bas."
+      },
+      {
+        icon: "⚡",
+        title: "Achetez IPTV facilement",
+        description: "Commandez votre abonnement IPTV et commencez à regarder en quelques minutes."
+      },
+      {
+        icon: "🔒",
+        title: "Streaming stable",
+        description: "Profitez d’une expérience IPTV Belgique fluide et sans interruption."
+      },
+      {
+        icon: "💻",
+        title: "Tous appareils compatibles",
+        description: "Fonctionne sur Smart TV, smartphone, tablette, ordinateur et plus."
+      },
+      {
+        icon: "🛡️",
+        title: "Support 24/7",
+        description: "Notre équipe est disponible pour vous aider avec l’installation et les questions."
+      }
+    ],
+
+    // Additional Feature Messages
+    worksOnAllDevices: "Fonctionne sur tous les appareils",
+    appPreview: "Aperçu de l’application",
+
+    // Pricing Section
+    pricingTitle: "Abonnements IPTV Belgique",
+    pricingSubtitle: "Trouvez votre abonnement IPTV et commencez à regarder immédiatement.",
+    standardLabel: "Standard",
+    premiumLabel: "Premium",
+    mostPopular: "LE PLUS POPULAIRE",
+    orderNow: "Commander",
+
+    // Standard Plans
+    standardPlans: [
+      {
+        name: "1 Mois",
+        price: "14.99",
+        period: "par mois",
+        features: [
+          "✅ 24 000+ Chaînes en direct",
+          "✅ 160 000+ Films & Séries",
+          "✅ Streaming 4K",
+          "✅ Compatible tous appareils",
+          "✅ Support multi-appareils (2)",
+          "✅ Assistance 24/7",
+          "✅ Streaming sans souci"
+        ]
+      },
+      {
+        name: "3 Mois",
+        price: "29.99",
+        period: "total (€9.99/mois)",
+        features: [
+          "✅ 24 000+ Chaînes en direct",
+          "✅ 160 000+ Films & Séries",
+          "✅ Streaming 4K",
+          "✅ Compatible tous appareils",
+          "✅ Support multi-appareils (2)",
+          "✅ Assistance 24/7",
+          "✅ Streaming sans souci",
+          "✅ Garantie satisfait ou remboursé"
+        ]
+      },
+      {
+        name: "6 Mois",
+        price: "39.99",
+        period: "total (€6.66/mois)",
+        features: [
+          "✅ 24 000+ Chaînes en direct",
+          "✅ 160 000+ Films & Séries",
+          "✅ Streaming 4K",
+          "✅ Compatible tous appareils",
+          "✅ Support multi-appareils (2)",
+          "✅ Assistance 24/7",
+          "✅ Streaming sans souci"
+        ]
+      },
+      {
+        name: "1 An",
+        price: "59.99",
+        period: "total (€4.99/mois)",
+        features: [
+          "✅ 24 000+ Chaînes en direct",
+          "✅ 160 000+ Films & Séries",
+          "✅ Streaming 4K",
+          "✅ Compatible tous appareils",
+          "✅ Support multi-appareils (2)",
+          "✅ Assistance 24/7",
+          "✅ Streaming sans souci",
+          "✅ Meilleur rapport qualité-prix"
+        ]
+      }
+    ],
+
+    // Premium Plans
+    premiumPlans: [
+      {
+        name: "1 Mois",
+        price: "17.99",
+        period: "par mois",
+        features: [
+          "✅ 33 000+ Chaînes en direct",
+          "✅ 200 000+ Films & Séries",
+          "✅ Streaming 8K",
+          "✅ Compatible tous appareils",
+          "✅ Support multi-appareils (5)",
+          "✅ Assistance prioritaire 24/7",
+          "✅ Streaming sans souci",
+          "✅ Chaînes sport premium"
+        ]
+      },
+      {
+        name: "3 Mois",
+        price: "37.99",
+        period: "total (€12.66/mois)",
+        features: [
+          "✅ 33 000+ Chaînes en direct",
+          "✅ 200 000+ Films & Séries",
+          "✅ Streaming 8K",
+          "✅ Compatible tous appareils",
+          "✅ Support multi-appareils (5)",
+          "✅ Assistance prioritaire 24/7",
+          "✅ Streaming sans souci",
+          "✅ Chaînes sport premium",
+          "✅ Garantie satisfait ou remboursé"
+        ]
+      },
+      {
+        name: "6 Mois",
+        price: "47.99",
+        period: "total (€7.99/mois)",
+        features: [
+          "✅ 33 000+ Chaînes en direct",
+          "✅ 200 000+ Films & Séries",
+          "✅ Streaming 8K",
+          "✅ Compatible tous appareils",
+          "✅ Support multi-appareils (5)",
+          "✅ Assistance prioritaire 24/7",
+          "✅ Streaming sans souci",
+          "✅ Chaînes sport premium"
+        ]
+      },
+      {
+        name: "1 An",
+        price: "67.99",
+        period: "total (€5.66/mois)",
+        features: [
+          "✅ 33 000+ Chaînes en direct",
+          "✅ 200 000+ Films & Séries",
+          "✅ Streaming 8K",
+          "✅ Compatible tous appareils",
+          "✅ Support multi-appareils (5)",
+          "✅ Assistance prioritaire 24/7",
+          "✅ Streaming sans souci",
+          "✅ Chaînes sport premium",
+          "✅ Meilleur rapport qualité-prix"
+        ]
+      }
+    ],
+
+    // How It Works
+    howItWorksTitle: "Comment fonctionne StreamBe IPTV ?",
+    stepLabel: "Étape",
+    howItWorksSteps: [
+      {
+        number: 1,
+        icon: "🛒",
+        title: "Choisissez votre abonnement IPTV",
+        description: "Sélectionnez l’abonnement IPTV Belgique qui correspond à vos besoins."
+      },
+      {
+        number: 2,
+        icon: "📧",
+        title: "Recevez vos identifiants",
+        description: "Vous recevez rapidement vos accès par e-mail pour commencer votre IPTV."
+      },
+      {
+        number: 3,
+        icon: "📱",
+        title: "Installez sur votre appareil",
+        description: "Installez l’application sur Smart TV, smartphone, tablette ou ordinateur."
+      },
+      {
+        number: 4,
+        icon: "🎉",
+        title: "Profitez de votre contenu",
+        description: "Regardez immédiatement vos chaînes préférées avec votre abonnement IPTV."
+      }
+    ],
+
+    // Testimonials
+    testimonialsTitle: "Ce que disent nos clients",
+    testimonials: [
+      {
+        name: "Julie R.",
+        location: "Bruxelles, Belgique",
+        rating: 5,
+        comment: "Service rapide et simple. Parfait pour IPTV Belgique et Pays-Bas.",
+        avatar: "👩"
+      },
+      {
+        name: "Marc D.",
+        location: "Anvers, Belgique",
+        rating: 5,
+        comment: "Très bonne qualité d’image et large choix de chaînes. Je recommande cet abonnement IPTV.",
+        avatar: "👨"
+      },
+      {
+        name: "Sophie L.",
+        location: "Liège, Belgique",
+        rating: 5,
+        comment: "Installation facile et streaming fluide. Idéal pour IPTV Belgique.",
+        avatar: "👩"
+      }
+    ],
+
+    // FAQ
+    faqTitle: "Questions fréquentes",
+    faqs: [
+      {
+        question: "Quand recevrai-je mes identifiants IPTV ?",
+        answer: "Les commandes sont traitées rapidement. Vous recevez habituellement vos informations par e-mail en quelques minutes."
+      },
+      {
+        question: "Quels appareils sont compatibles ?",
+        answer: "Notre service fonctionne sur Smart TV, Android, iOS, tablette, ordinateur et plus. Vous pouvez utiliser notre application ou M3U, MAG, Enigma2."
+      },
+      {
+        question: "Est-ce facile à configurer ?",
+        answer: "Oui. Une fois vos identifiants reçus, installez l’application et commencez à regarder."
+      },
+      {
+        question: "Puis-je acheter IPTV Belgique ?",
+        answer: "Oui. StreamBe propose des abonnements IPTV Belgique avec activation rapide."
+      },
+      {
+        question: "Avez-vous un support client ?",
+        answer: "Oui. Nous sommes disponibles 24/7 via WhatsApp pour toute aide ou question."
+      },
+      {
+        question: "Y a-t-il de la mise en mémoire tampon ?",
+        answer: "Nos serveurs sont optimisés pour un streaming stable et fluide."
+      }
+    ],
+
+    // Footer
+    footerCTA: "Prêt à commencer ?",
+    footerCTASubtitle: "Rejoignez les téléspectateurs satisfaits en Belgique et aux Pays-Bas",
+    footerButton: "Voir les offres",
+    footerCopyright: "© {year} StreamBe IPTV. Tous droits réservés.",
+    footerTagline: "Abonnement IPTV premium pour Belgique & Pays-Bas",
+
+    // About Page
+    aboutTitle: "À propos de StreamBe IPTV",
+    aboutDescription: "Découvrez comment StreamBe vous aide à choisir un abonnement IPTV Belgique simple et rapide.",
+    aboutIntro: "Découvrez StreamBe IPTV Belgique. Nous facilitons l’achat d’un abonnement IPTV et le démarrage immédiat du streaming.",
+    aboutMissionTitle: "Notre mission",
+    aboutMissionText: "Aider les téléspectateurs belges et néerlandais à accéder à un abonnement IPTV avec une activation rapide et un vaste choix de chaînes.",
+    aboutWhyTitle: "Pourquoi StreamBe ?",
+    aboutFeatures: [
+      {
+        title: "✅ Démarrage rapide",
+        description: "Activez votre abonnement IPTV en quelques minutes et commencez immédiatement."
+      },
+      {
+        title: "✅ Large sélection de chaînes",
+        description: "Accédez à des milliers de chaînes et du contenu à la demande."
+      },
+      {
+        title: "✅ Compatible tous appareils",
+        description: "Regardez sur Smart TV, Android, iOS, tablette et ordinateur."
+      }
+    ],
+    aboutWhatWeOffer: "Ce que nous offrons",
+    aboutOfferings: [
+      "📺 24 000+ chaînes en direct",
+      "🎬 160 000+ films et séries",
+      "🎞️ streaming HD, FHD et 4K",
+      "💻 compatible tous appareils",
+      "⚡ connexion rapide",
+      "🛡️ support 24/7"
+    ],
+    aboutCTAHeading: "Prêt à diffuser ?",
+    aboutCTAText: "Rejoignez des milliers de clients satisfaits qui profitent déjà de l’IPTV premium.",
+    aboutCTAButton: "Voir les offres",
+    aboutCTA: "Commencer maintenant",
+
+    // SEO
+    homeTitle: "StreamBe IPTV Belgique | abonnement IPTV et achat IPTV",
+    homeDescription: "StreamBe propose des abonnements IPTV Belgique rapides pour la Belgique et les Pays-Bas. Choisissez un abonnement IPTV, achetez IPTV et regardez des centaines de chaînes en HD et 4K.",
+    homeKeywords: "iptv belgique, abonnement iptv, streambe iptv, acheter iptv",
+    aboutKeywords: "streambe iptv, iptv belgique, abonnement iptv, acheter iptv",
+
+    // Language Toggle
+    languageToggle: "Language",
+    languageNL: "NL",
+    languageEN: "EN",
+    languageFR: "FR"
   }
 };
 
-export type Language = 'nl' | 'en';
+export type Language = 'nl' | 'en' | 'fr';
 export type TranslationKey = keyof typeof translations.nl;

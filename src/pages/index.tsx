@@ -8,14 +8,18 @@ import Pricing from '../components/Pricing';
 import HowItWorks from '../components/HowItWorks';
 import Testimonials from '../components/Testimonials';
 import FAQ from '../components/FAQ';
+import { useLanguage } from '../contexts/LanguageContext';
+import { translations } from '../utils/translations';
 
 const Home: React.FC = () => {
+  const { language } = useLanguage();
+  const content = translations[language];
   return (
     <div>
       <Head>
-        <title>IPTV Belgie Abonnement | IPTV België & Nederland | IPTV kopen</title>
-        <meta name="description" content="IPTV Belgie abonnement voor België en Nederland. Bestel je abonnement iptv, iptv kopen met 24.000+ live kanalen en bekijk program iptv in topkwaliteit." />
-        <meta name="keywords" content="iptv belgie, abonnement iptv, iptv kopen, program iptv, iptv abonnement, iptv belgique" />
+        <title>{content.homeTitle}</title>
+        <meta name="description" content={content.homeDescription} />
+        <meta name="keywords" content={content.homeKeywords} />
       </Head>
       <Header />
       <main>

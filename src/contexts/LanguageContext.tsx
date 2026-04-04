@@ -20,7 +20,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
   useEffect(() => {
     // Load language from localStorage on mount
     const savedLanguage = localStorage.getItem('language') as Language;
-    if (savedLanguage && (savedLanguage === 'nl' || savedLanguage === 'en')) {
+    if (savedLanguage && (savedLanguage === 'nl' || savedLanguage === 'en' || savedLanguage === 'fr')) {
       setLanguageState(savedLanguage);
     }
   }, []);
