@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import React, { createContext, useContext, ReactNode } from 'react';
+import { useRouter } from 'next/router';
 import { translations, Language, TranslationKey } from '../utils/translations';
 
 interface LanguageContextType {
@@ -15,19 +16,11 @@ interface LanguageProviderProps {
 }
 
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
-  const [language, setLanguageState] = useState<Language>('nl'); // Dutch as default
-
-  useEffect(() => {
-    // Load language from localStorage on mount
-    const savedLanguage = localStorage.getItem('language') as Language;
-    if (savedLanguage && (savedLanguage === 'nl' || savedLanguage === 'en' || savedLanguage === 'fr')) {
-      setLanguageState(savedLanguage);
-    }
-  }, []);
+  const router = useRouter();
+  const language = (router.locale as Language) || 'nl';
 
   const setLanguage = (lang: Language) => {
-    setLanguageState(lang);
-    localStorage.setItem('language', lang);
+    router.push(router.pathname, router.asPath, { locale: lang });
   };
 
   const getNestedValue = (obj: any, path: string): any => {
