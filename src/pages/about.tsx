@@ -14,19 +14,38 @@ const About: React.FC = () => {
     const canonicalPath = router.asPath.split('?')[0].split('#')[0];
     const canonicalUrl = `${siteUrl}${canonicalPath}`;
     const ogImageUrl = `${siteUrl}/images/modern-devices.svg`;
+    const localeHref = (locale: string, path: string) => {
+        if (locale === 'nl') {
+            return `${siteUrl}${path}`;
+        }
+        return `${siteUrl}/${locale}${path}`;
+    };
+    const aboutPageSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'AboutPage',
+        name: content.aboutTitle,
+        description: content.aboutDescription,
+        url: canonicalUrl,
+        inLanguage: language,
+        isPartOf: {
+            '@type': 'WebSite',
+            name: 'StreamBe IPTV',
+            url: siteUrl,
+        },
+    };
 
     return (
         <div>
             <Head>
                 <title>{content.aboutTitle}</title>
                 <meta name="description" content={content.aboutDescription} />
-                <meta name="keywords" content={content.aboutKeywords} />
                 <link rel="canonical" href={canonicalUrl} />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content={content.aboutTitle} />
                 <meta property="og:description" content={content.aboutDescription} />
                 <meta property="og:url" content={canonicalUrl} />
                 <meta property="og:image" content={ogImageUrl} />
+                <meta property="og:image:type" content="image/svg+xml" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content={content.aboutTitle} />
                 <meta name="twitter:description" content={content.aboutDescription} />
@@ -36,13 +55,17 @@ const About: React.FC = () => {
                         key={locale}
                         rel="alternate"
                         hrefLang={locale}
-                        href={`${siteUrl}/${locale}/about`}
+                        href={localeHref(locale, '/about')}
                     />
                 ))}
                 <link
                     rel="alternate"
                     hrefLang="x-default"
                     href={`${siteUrl}/about`}
+                />
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutPageSchema) }}
                 />
             </Head>
             <Header />

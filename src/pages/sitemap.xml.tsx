@@ -4,26 +4,42 @@ const SiteMap = () => null;
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://streambe.net';
-  const now = new Date().toISOString();
+  const stableLastMod = '2026-04-09';
 
-  const urls = [
-    `${siteUrl}`,
-    `${siteUrl}/about`,
-    `${siteUrl}/en`,
-    `${siteUrl}/fr`,
-    `${siteUrl}/en/about`,
-    `${siteUrl}/fr/about`,
+  const pages = [
+    {
+      path: '',
+      alternates: {
+        nl: `${siteUrl}`,
+        en: `${siteUrl}/en`,
+        fr: `${siteUrl}/fr`,
+      },
+      priority: '1.0',
+    },
+    {
+      path: '/about',
+      alternates: {
+        nl: `${siteUrl}/about`,
+        en: `${siteUrl}/en/about`,
+        fr: `${siteUrl}/fr/about`,
+      },
+      priority: '0.8',
+    },
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${pages
   .map(
-    (url) => `  <url>
-    <loc>${url}</loc>
-    <lastmod>${now}</lastmod>
+    (page) => `  <url>
+    <loc>${page.alternates.nl}</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="${page.alternates.nl}" />
+    <xhtml:link rel="alternate" hreflang="en" href="${page.alternates.en}" />
+    <xhtml:link rel="alternate" hreflang="fr" href="${page.alternates.fr}" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="${page.alternates.nl}" />
+    <lastmod>${stableLastMod}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>${url === siteUrl ? '1.0' : '0.8'}</priority>
+    <priority>${page.priority}</priority>
   </url>`
   )
   .join('\n')}
