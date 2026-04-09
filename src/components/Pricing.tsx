@@ -12,7 +12,9 @@ const Pricing: React.FC = () => {
 
     const handleWhatsApp = (plan: string) => {
         const planType = isPremium ? t('premiumLabel') : t('standardLabel');
-        const message = `Hi, I'm interested in the ${planType} ${plan} plan`;
+        const message = t('pricingWhatsAppMessage')
+            .replace('{planType}', planType)
+            .replace('{plan}', plan);
         const whatsappLink = generateWhatsAppLink(whatsappNumber, message);
         window.open(whatsappLink, '_blank');
     };

@@ -14,7 +14,7 @@ export const translations = {
     heroButton1: "Nu Kopen",
     heroButton2: "Gratis Test",
     trialWhatsAppMessage: "Hallo, ik wil graag een gratis IPTV test van 24 uur proberen.",
-    heroStat1: "24.000+",
+    heroStat1: "33.000+",
     heroStat1Label: "Live Kanalen",
     heroStat2: "160.000+",
     heroStat2Label: "Films & Series",
@@ -66,7 +66,8 @@ export const translations = {
     standardLabel: "Standaard",
     premiumLabel: "Premium",
     mostPopular: "MEEST POPULAIR",
-    orderNow: "Nu Bestellen",
+    orderNow: "koop nu",
+    pricingWhatsAppMessage: "Hallo, ik ben geinteresseerd in het {planType} {plan} pakket.",
 
     // Standard Plans
     standardPlans: [
@@ -379,7 +380,7 @@ export const translations = {
     heroButton1: "Buy Now",
     heroButton2: "Free Trial",
     trialWhatsAppMessage: "Hi, I would like a free 24-hour IPTV trial test.",
-    heroStat1: "24,000+",
+    heroStat1: "33,000+",
     heroStat1Label: "Live Channels",
     heroStat2: "160,000+",
     heroStat2Label: "Movies & Series",
@@ -432,6 +433,7 @@ export const translations = {
     premiumLabel: "Premium",
     mostPopular: "MOST POPULAR",
     orderNow: "Order Now",
+    pricingWhatsAppMessage: "Hi, I'm interested in the {planType} {plan} plan.",
 
     // Standard Plans
     standardPlans: [
@@ -744,7 +746,7 @@ export const translations = {
     heroButton1: "Acheter",
     heroButton2: "Test Gratuit",
     trialWhatsAppMessage: "Bonjour, je souhaite essayer un test IPTV gratuit de 24 heures.",
-    heroStat1: "24 000+",
+    heroStat1: "33 000+",
     heroStat1Label: "Chaînes en direct",
     heroStat2: "160 000+",
     heroStat2Label: "Films & Séries",
@@ -797,6 +799,7 @@ export const translations = {
     premiumLabel: "Premium",
     mostPopular: "LE PLUS POPULAIRE",
     orderNow: "Commander",
+    pricingWhatsAppMessage: "Bonjour, je suis interesse par l'offre {planType} {plan}.",
 
     // Standard Plans
     standardPlans: [
