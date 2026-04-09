@@ -3,7 +3,7 @@ import type { GetServerSideProps } from 'next';
 const SiteMap = () => null;
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://yourdomain.com';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://streambe.net';
   const now = new Date().toISOString();
 
   const urls = [
