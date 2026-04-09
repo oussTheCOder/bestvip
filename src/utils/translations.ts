@@ -10,9 +10,10 @@ export const translations = {
 
     // Hero Section
     heroTitle: "🎬 StreamBe IPTV België & Nederland",
-    heroSubtitle: "Kies het beste IPTV abonnement voor België en Nederland. IPTV kopen is snel geregeld met directe activering, 24.000+ live kanalen en een heldere kijkervaring.",
+    heroSubtitle: "Geniet van 33.000+ live kanalen en 160.000+ films en series in HD/4K, met snelle activatie en stabiele streaming in België en Nederland. Probeer nu een 24 uur gratis test.",
     heroButton1: "Nu Kopen",
     heroButton2: "Gratis Test",
+    trialWhatsAppMessage: "Hallo, ik wil graag een gratis IPTV test van 24 uur proberen.",
     heroStat1: "24.000+",
     heroStat1Label: "Live Kanalen",
     heroStat2: "160.000+",
@@ -377,6 +378,7 @@ export const translations = {
     heroSubtitle: "Choose your IPTV subscription for Belgium and the Netherlands. Buy IPTV with StreamBe for fast activation, 24,000+ live channels and smooth streaming.",
     heroButton1: "Buy Now",
     heroButton2: "Free Trial",
+    trialWhatsAppMessage: "Hi, I would like a free 24-hour IPTV trial test.",
     heroStat1: "24,000+",
     heroStat1Label: "Live Channels",
     heroStat2: "160,000+",
@@ -741,6 +743,7 @@ export const translations = {
     heroSubtitle: "Choisissez l’abonnement IPTV Belgique pour la Belgique et les Pays-Bas. Acheter un abonnement IPTV est simple avec StreamBe : activation rapide, 24 000+ chaînes en direct et streaming fluide.",
     heroButton1: "Acheter",
     heroButton2: "Test Gratuit",
+    trialWhatsAppMessage: "Bonjour, je souhaite essayer un test IPTV gratuit de 24 heures.",
     heroStat1: "24 000+",
     heroStat1Label: "Chaînes en direct",
     heroStat2: "160 000+",

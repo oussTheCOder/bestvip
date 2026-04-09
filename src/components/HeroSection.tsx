@@ -5,7 +5,7 @@ import { generateWhatsAppLink } from '../utils/whatsapp';
 const HeroSection: React.FC = () => {
     const { t } = useLanguage();
     const whatsappNumber = process.env.WHATSAPP_NUMBER || '+19295664890';
-    const trialMessage = 'Hi, I would like a free 24-hour IPTV trial test.';
+    const trialMessage = t('trialWhatsAppMessage');
     const trialWhatsAppLink = generateWhatsAppLink(whatsappNumber, trialMessage);
 
     return (
