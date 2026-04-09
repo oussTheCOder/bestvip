@@ -1,8 +1,12 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
+import { generateWhatsAppLink } from '../utils/whatsapp';
 
 const HeroSection: React.FC = () => {
     const { t } = useLanguage();
+    const whatsappNumber = process.env.WHATSAPP_NUMBER || '+19295664890';
+    const trialMessage = 'Hi, I would like a free 24-hour IPTV trial test.';
+    const trialWhatsAppLink = generateWhatsAppLink(whatsappNumber, trialMessage);
 
     return (
         <section style={{
@@ -43,7 +47,7 @@ const HeroSection: React.FC = () => {
                         <a href="#pricing" className="cta-button" style={{ padding: '15px 30px', fontSize: '1.1rem' }}>
                             {t('heroButton1')}
                         </a>
-                        <a href="#why" className="cta-button cta-button-secondary" style={{ padding: '15px 30px', fontSize: '1.1rem' }}>
+                        <a href={trialWhatsAppLink} target="_blank" rel="noopener noreferrer" className="cta-button cta-button-secondary" style={{ padding: '15px 30px', fontSize: '1.1rem' }}>
                             {t('heroButton2')}
                         </a>
                     </div>

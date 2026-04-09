@@ -11,8 +11,8 @@ export const translations = {
     // Hero Section
     heroTitle: "🎬 StreamBe IPTV België & Nederland",
     heroSubtitle: "Kies het beste IPTV abonnement voor België en Nederland. IPTV kopen is snel geregeld met directe activering, 24.000+ live kanalen en een heldere kijkervaring.",
-    heroButton1: "Nu Aanmelden",
-    heroButton2: "Bekijk Abonnementen",
+    heroButton1: "Nu Kopen",
+    heroButton2: "Gratis Test",
     heroStat1: "24.000+",
     heroStat1Label: "Live Kanalen",
     heroStat2: "160.000+",
@@ -352,8 +352,8 @@ export const translations = {
     aboutCTA: "Nu Aanmelden",
 
     // SEO
-    homeTitle: "StreamBe IPTV België | IPTV abonnement en IPTV kopen",
-    homeDescription: "StreamBe biedt snelle IPTV België abonnementen voor België en Nederland. Kies een IPTV abonnement, koop IPTV en kijk honderden kanalen in HD en 4K.",
+    homeTitle: "StreamBe IPTV België | Betrouwbaar IPTV abonnement kopen",
+    homeDescription: "IPTV België met 33.000+ live kanalen en 160.000+ films en series in HD/4K. Kies een betrouwbaar IPTV abonnement, start snel met kijken en probeer eerst een 24 uur gratis test.",
     homeKeywords: "iptv belgie, iptv abonnement, streambe iptv, iptv kopen, belgie iptv",
     aboutKeywords: "streambe iptv, iptv belgie, iptv abonnement, iptv kopen",
 
@@ -375,8 +375,8 @@ export const translations = {
     // Hero Section
     heroTitle: "🎬 StreamBe IPTV Belgium & Netherlands",
     heroSubtitle: "Choose your IPTV subscription for Belgium and the Netherlands. Buy IPTV with StreamBe for fast activation, 24,000+ live channels and smooth streaming.",
-    heroButton1: "Get Started",
-    heroButton2: "See Plans",
+    heroButton1: "Buy Now",
+    heroButton2: "Free Trial",
     heroStat1: "24,000+",
     heroStat1Label: "Live Channels",
     heroStat2: "160,000+",
@@ -716,8 +716,8 @@ export const translations = {
     aboutCTA: "Start now",
 
     // SEO
-    homeTitle: "StreamBe IPTV Belgium | IPTV abonnement and IPTV buy",
-    homeDescription: "StreamBe offers fast IPTV Belgium subscriptions for Belgium and the Netherlands. Choose an IPTV abonnement, buy IPTV and watch hundreds of channels in HD and 4K.",
+    homeTitle: "StreamBe IPTV Belgium | Reliable IPTV subscription",
+    homeDescription: "IPTV Belgium with 33,000+ live channels and 160,000+ movies and series in HD/4K. Choose a reliable IPTV subscription, start streaming fast, and try a free 24-hour test first.",
     homeKeywords: "iptv belgium, iptv abonnement, streambe iptv, buy iptv, belgium iptv",
     aboutKeywords: "streambe iptv, iptv belgium, iptv abonnement, buy iptv",
 
@@ -739,8 +739,8 @@ export const translations = {
     // Hero Section
     heroTitle: "🎬 StreamBe IPTV Belgique",
     heroSubtitle: "Choisissez l’abonnement IPTV Belgique pour la Belgique et les Pays-Bas. Acheter un abonnement IPTV est simple avec StreamBe : activation rapide, 24 000+ chaînes en direct et streaming fluide.",
-    heroButton1: "Commencer",
-    heroButton2: "Voir les offres",
+    heroButton1: "Acheter",
+    heroButton2: "Test Gratuit",
     heroStat1: "24 000+",
     heroStat1Label: "Chaînes en direct",
     heroStat2: "160 000+",
@@ -1051,8 +1051,8 @@ export const translations = {
     aboutCTA: "Commencer maintenant",
 
     // SEO
-    homeTitle: "StreamBe IPTV Belgique | abonnement IPTV et achat IPTV",
-    homeDescription: "StreamBe propose des abonnements IPTV Belgique rapides pour la Belgique et les Pays-Bas. Choisissez un abonnement IPTV, achetez IPTV et regardez des centaines de chaînes en HD et 4K.",
+    homeTitle: "StreamBe IPTV Belgique | Abonnement IPTV fiable",
+    homeDescription: "IPTV Belgique avec plus de 33 000 chaînes en direct et plus de 160 000 films et séries en HD/4K. Choisissez un abonnement IPTV fiable, activez rapidement et profitez d’un test gratuit de 24 heures.",
     homeKeywords: "iptv belgique, abonnement iptv, streambe iptv, acheter iptv",
     aboutKeywords: "streambe iptv, iptv belgique, abonnement iptv, acheter iptv",
 
