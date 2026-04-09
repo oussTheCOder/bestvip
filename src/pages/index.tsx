@@ -16,24 +16,39 @@ const Home: React.FC = () => {
   const { language } = useLanguage();
   const router = useRouter();
   const content = translations[language];
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://yourdomain.com';
+  const canonicalPath = router.asPath.split('?')[0].split('#')[0];
+  const canonicalUrl = `${siteUrl}${canonicalPath === '/' ? '' : canonicalPath}`;
+  const ogImageUrl = `${siteUrl}/images/modern-devices.svg`;
+
   return (
     <div>
       <Head>
         <title>{content.homeTitle}</title>
         <meta name="description" content={content.homeDescription} />
         <meta name="keywords" content={content.homeKeywords} />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={content.homeTitle} />
+        <meta property="og:description" content={content.homeDescription} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content={ogImageUrl} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={content.homeTitle} />
+        <meta name="twitter:description" content={content.homeDescription} />
+        <meta name="twitter:image" content={ogImageUrl} />
         {router.locales?.map((locale) => (
           <link
             key={locale}
             rel="alternate"
             hrefLang={locale}
-            href={`${process.env.NEXT_PUBLIC_SITE_URL || 'https://yourdomain.com'}/${locale}`}
+            href={`${siteUrl}/${locale}`}
           />
         ))}
         <link
           rel="alternate"
           hrefLang="x-default"
-          href={`${process.env.NEXT_PUBLIC_SITE_URL || 'https://yourdomain.com'}`}
+          href={siteUrl}
         />
       </Head>
       <Header />
