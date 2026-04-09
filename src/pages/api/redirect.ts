@@ -1,11 +1,12 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
+import { generateWhatsAppLink } from '../../utils/whatsapp';
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  const whatsappNumber = process.env.WHATSAPP_NUMBER || '';
+  const whatsappNumber = process.env.WHATSAPP_NUMBER || '+19295664890';
   const message = 'Hello, I am interested in your IPTV service.';
 
   if (req.method === 'GET') {
-    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    const url = generateWhatsAppLink(whatsappNumber, message);
     res.redirect(url);
   } else {
     res.setHeader('Allow', ['GET']);

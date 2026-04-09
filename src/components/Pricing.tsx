@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../utils/translations';
+import { generateWhatsAppLink } from '../utils/whatsapp';
 
 const Pricing: React.FC = () => {
     const { language, t } = useLanguage();
     const [isPremium, setIsPremium] = useState(false);
 
     const plans = isPremium ? translations[language].premiumPlans : translations[language].standardPlans;
+    const whatsappNumber = process.env.WHATSAPP_NUMBER || '+19295664890';
 
     const handleWhatsApp = (plan: string) => {
-        const whatsappNumber = '+1234567890';
         const planType = isPremium ? t('premiumLabel') : t('standardLabel');
         const message = `Hi, I'm interested in the ${planType} ${plan} plan`;
-        const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+        const whatsappLink = generateWhatsAppLink(whatsappNumber, message);
         window.open(whatsappLink, '_blank');
     };
 

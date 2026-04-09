@@ -1,9 +1,10 @@
 import React from 'react';
+import { generateWhatsAppLink } from '../utils/whatsapp';
 
 const WhatsAppCTA: React.FC = () => {
-    const whatsappNumber = '+1234567890';
+    const whatsappNumber = process.env.WHATSAPP_NUMBER || '+19295664890';
     const message = 'Hello, I am interested in your IPTV service!';
-    const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    const whatsappLink = generateWhatsAppLink(whatsappNumber, message);
 
     return (
         <div style={{ textAlign: 'center', padding: '40px 20px' }}>
