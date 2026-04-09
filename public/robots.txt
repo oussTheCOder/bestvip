@@ -1,3 +1,3 @@
 User-agent: *
 Disallow: /api/redirect
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: /sitemap.xml
