@@ -25,6 +25,33 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       },
       priority: '0.8',
     },
+    {
+      path: '/iptv-belgie',
+      alternates: {
+        nl: `${siteUrl}/iptv-belgie`,
+        en: `${siteUrl}/en/iptv-belgie`,
+        fr: `${siteUrl}/fr/iptv-belgie`,
+      },
+      priority: '0.8',
+    },
+    {
+      path: '/iptv-abonnement-belgie',
+      alternates: {
+        nl: `${siteUrl}/iptv-abonnement-belgie`,
+        en: `${siteUrl}/en/iptv-abonnement-belgie`,
+        fr: `${siteUrl}/fr/iptv-abonnement-belgie`,
+      },
+      priority: '0.7',
+    },
+    {
+      path: '/iptv-kopen-belgie',
+      alternates: {
+        nl: `${siteUrl}/iptv-kopen-belgie`,
+        en: `${siteUrl}/en/iptv-kopen-belgie`,
+        fr: `${siteUrl}/fr/iptv-kopen-belgie`,
+      },
+      priority: '0.7',
+    },
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
