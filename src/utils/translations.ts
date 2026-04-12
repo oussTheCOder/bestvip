@@ -10,13 +10,13 @@ export const translations = {
 
     // Hero Section
     heroTitle: "🎬 StreamBe IPTV België & Nederland",
-    heroSubtitle: "Geniet van 33.000+ live kanalen en 160.000+ films en series in HD/4K, met snelle activatie en stabiele streaming in België en Nederland. Probeer nu een 24 uur gratis test.",
+    heroSubtitle: "Geniet van 33.000+ live kanalen en 170.000+ films en series in HD/4K, met snelle activatie en stabiele streaming in België en Nederland.",
     heroButton1: "Nu Kopen",
     heroButton2: "Gratis Test",
     trialWhatsAppMessage: "Hallo, ik wil graag een gratis IPTV test van 24 uur proberen.",
     heroStat1: "33.000+",
     heroStat1Label: "Live Kanalen",
-    heroStat2: "160.000+",
+    heroStat2: "170.000+",
     heroStat2Label: "Films & Series",
     heroStat3: "4K Kwaliteit",
     heroStat3Label: "Ultra HD Streaming",
@@ -59,6 +59,7 @@ export const translations = {
     // Additional Feature Messages
     worksOnAllDevices: "Werkt Op Alle Apparaten",
     appPreview: "App Interface Preview",
+    devicesShowcaseAlt: "IPTV op alle apparaten: tv, laptop, tablet en smartphone",
 
     // Pricing Section
     pricingTitle: "IPTV België abonnementen",
@@ -76,13 +77,15 @@ export const translations = {
         price: "14.99",
         period: "per maand",
         features: [
-          "✅ 24.000+ Live Kanalen",
+          "✅ 24.000+ Kanalen",
           "✅ 160.000+ Films & Series",
-          "✅ 4K Kwaliteit Streaming",
-          "✅ Alle Apparaten Ondersteund",
-          "✅ Multi-apparaat Ondersteuning (2)",
-          "✅ 24/7 Klantenservice",
-          "✅ Geen Buffering Garantie"
+          "✅ Geen +18-kanalen",
+          "✅ Automatische updates",
+          "✅ Live ondersteuning 24/7",
+          "✅ Hoge kwaliteit",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stabiele servers zonder onderbrekingen",
+          "✅ 7 dagen geld-terug-garantie"
         ]
       },
       {
@@ -90,28 +93,15 @@ export const translations = {
         price: "29.99",
         period: "totaal (€9.99/maand)",
         features: [
-          "✅ 24.000+ Live Kanalen",
+          "✅ 24.000+ Kanalen",
           "✅ 160.000+ Films & Series",
-          "✅ 4K Kwaliteit Streaming",
-          "✅ Alle Apparaten Ondersteund",
-          "✅ Multi-apparaat Ondersteuning (2)",
-          "✅ 24/7 Klantenservice",
-          "✅ Geen Buffering Garantie",
-          "✅ Geld-terug-garantie"
-        ]
-      },
-      {
-        name: "6 Maanden",
-        price: "39.99",
-        period: "totaal (€6.66/maand)",
-        features: [
-          "✅ 24.000+ Live Kanalen",
-          "✅ 160.000+ Films & Series",
-          "✅ 4K Kwaliteit Streaming",
-          "✅ Alle Apparaten Ondersteund",
-          "✅ Multi-apparaat Ondersteuning (2)",
-          "✅ 24/7 Klantenservice",
-          "✅ Geen Buffering Garantie"
+          "✅ Geen +18-kanalen",
+          "✅ Automatische updates",
+          "✅ Live ondersteuning 24/7",
+          "✅ Hoge kwaliteit",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stabiele servers zonder onderbrekingen",
+          "✅ 7 dagen geld-terug-garantie"
         ]
       },
       {
@@ -119,14 +109,31 @@ export const translations = {
         price: "59.99",
         period: "totaal (€4.99/maand)",
         features: [
-          "✅ 24.000+ Live Kanalen",
+          "✅ 24.000+ Kanalen",
           "✅ 160.000+ Films & Series",
-          "✅ 4K Kwaliteit Streaming",
-          "✅ Alle Apparaten Ondersteund",
-          "✅ Multi-apparaat Ondersteuning (2)",
-          "✅ 24/7 Klantenservice",
-          "✅ Geen Buffering Garantie",
-          "✅ Beste Waarde Deal"
+          "✅ Geen +18-kanalen",
+          "✅ Automatische updates",
+          "✅ Live ondersteuning 24/7",
+          "✅ Hoge kwaliteit",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stabiele servers zonder onderbrekingen",
+          "✅ 7 dagen geld-terug-garantie"
+        ]
+      },
+      {
+        name: "6 Maanden",
+        price: "39.99",
+        period: "totaal (€6.66/maand)",
+        features: [
+          "✅ 24.000+ Kanalen",
+          "✅ 160.000+ Films & Series",
+          "✅ Geen +18-kanalen",
+          "✅ Automatische updates",
+          "✅ Live ondersteuning 24/7",
+          "✅ Hoge kwaliteit",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stabiele servers zonder onderbrekingen",
+          "✅ 7 dagen geld-terug-garantie"
         ]
       }
     ],
@@ -138,14 +145,15 @@ export const translations = {
         price: "17.99",
         period: "per maand",
         features: [
-          "✅ 33.000+ Live Kanalen",
-          "✅ 200.000+ Films & Series",
-          "✅ 8K Kwaliteit Streaming",
-          "✅ Alle Apparaten Ondersteund",
-          "✅ Multi-apparaat Ondersteuning (5)",
-          "✅ 24/7 Prioriteit Ondersteuning",
-          "✅ Geen Buffering Garantie",
-          "✅ Premium Sport Kanalen"
+          "✅ 33.000+ Kanalen",
+          "✅ 170.000+ Films & Series",
+          "✅ Geen +18-kanalen",
+          "✅ Automatische updates",
+          "✅ Live ondersteuning 24/7",
+          "✅ Hoge kwaliteit",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stabiele servers zonder onderbrekingen",
+          "✅ 7 dagen geld-terug-garantie"
         ]
       },
       {
@@ -153,30 +161,15 @@ export const translations = {
         price: "37.99",
         period: "totaal (€12.66/maand)",
         features: [
-          "✅ 33.000+ Live Kanalen",
-          "✅ 200.000+ Films & Series",
-          "✅ 8K Kwaliteit Streaming",
-          "✅ Alle Apparaten Ondersteund",
-          "✅ Multi-apparaat Ondersteuning (5)",
-          "✅ 24/7 Prioriteit Ondersteuning",
-          "✅ Geen Buffering Garantie",
-          "✅ Premium Sport Kanalen",
-          "✅ Geld-terug-garantie"
-        ]
-      },
-      {
-        name: "6 Maanden",
-        price: "47.99",
-        period: "totaal (€7.99/maand)",
-        features: [
-          "✅ 33.000+ Live Kanalen",
-          "✅ 200.000+ Films & Series",
-          "✅ 8K Kwaliteit Streaming",
-          "✅ Alle Apparaten Ondersteund",
-          "✅ Multi-apparaat Ondersteuning (5)",
-          "✅ 24/7 Prioriteit Ondersteuning",
-          "✅ Geen Buffering Garantie",
-          "✅ Premium Sport Kanalen"
+          "✅ 33.000+ Kanalen",
+          "✅ 170.000+ Films & Series",
+          "✅ Geen +18-kanalen",
+          "✅ Automatische updates",
+          "✅ Live ondersteuning 24/7",
+          "✅ Hoge kwaliteit",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stabiele servers zonder onderbrekingen",
+          "✅ 7 dagen geld-terug-garantie"
         ]
       },
       {
@@ -184,15 +177,31 @@ export const translations = {
         price: "67.99",
         period: "totaal (€5.66/maand)",
         features: [
-          "✅ 33.000+ Live Kanalen",
-          "✅ 200.000+ Films & Series",
-          "✅ 8K Kwaliteit Streaming",
-          "✅ Alle Apparaten Ondersteund",
-          "✅ Multi-apparaat Ondersteuning (5)",
-          "✅ 24/7 Prioriteit Ondersteuning",
-          "✅ Geen Buffering Garantie",
-          "✅ Premium Sport Kanalen",
-          "✅ Beste Waarde Deal"
+          "✅ 33.000+ Kanalen",
+          "✅ 170.000+ Films & Series",
+          "✅ Geen +18-kanalen",
+          "✅ Automatische updates",
+          "✅ Live ondersteuning 24/7",
+          "✅ Hoge kwaliteit",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stabiele servers zonder onderbrekingen",
+          "✅ 7 dagen geld-terug-garantie"
+        ]
+      },
+      {
+        name: "6 Maanden",
+        price: "47.99",
+        period: "totaal (€7.99/maand)",
+        features: [
+          "✅ 33.000+ Kanalen",
+          "✅ 170.000+ Films & Series",
+          "✅ Geen +18-kanalen",
+          "✅ Automatische updates",
+          "✅ Live ondersteuning 24/7",
+          "✅ Hoge kwaliteit",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stabiele servers zonder onderbrekingen",
+          "✅ 7 dagen geld-terug-garantie"
         ]
       }
     ],
@@ -355,7 +364,7 @@ export const translations = {
 
     // SEO
     homeTitle: "StreamBe IPTV België | Betrouwbaar IPTV abonnement kopen",
-    homeDescription: "IPTV België met 33.000+ live kanalen en 160.000+ films en series in HD/4K. Kies een betrouwbaar IPTV abonnement, start snel met kijken en probeer eerst een 24 uur gratis test.",
+    homeDescription: "Kies StreamBe Standard met 24.000+ live kanalen en 160.000+ films en series, of Premium met 33.000+ live kanalen en 170.000+ films en series in HD/4K. Start snel en probeer eerst een 24 uur gratis test.",
     homeKeywords: "iptv belgie, iptv abonnement, streambe iptv, iptv kopen, belgie iptv",
     aboutKeywords: "streambe iptv, iptv belgie, iptv abonnement, iptv kopen",
 
@@ -376,13 +385,13 @@ export const translations = {
 
     // Hero Section
     heroTitle: "🎬 StreamBe IPTV Belgium & Netherlands",
-    heroSubtitle: "Choose your IPTV subscription for Belgium and the Netherlands. Buy IPTV with StreamBe for fast activation, 33,000+ live channels and smooth streaming.",
+    heroSubtitle: "Enjoy 33,000+ live channels and 170,000+ movies and series in HD/4K, with fast activation and stable streaming in Belgium and the Netherlands.",
     heroButton1: "Buy Now",
     heroButton2: "Free Trial",
     trialWhatsAppMessage: "Hi, I would like a free 24-hour IPTV trial test.",
     heroStat1: "33,000+",
     heroStat1Label: "Live Channels",
-    heroStat2: "160,000+",
+    heroStat2: "170,000+",
     heroStat2Label: "Movies & Series",
     heroStat3: "4K Quality",
     heroStat3Label: "Ultra HD Streaming",
@@ -425,6 +434,7 @@ export const translations = {
     // Additional Feature Messages
     worksOnAllDevices: "Works on all devices",
     appPreview: "App interface preview",
+    devicesShowcaseAlt: "IPTV on all devices: TV, laptop, tablet, and smartphone",
 
     // Pricing Section
     pricingTitle: "IPTV Belgium subscription plans",
@@ -442,13 +452,15 @@ export const translations = {
         price: "14.99",
         period: "per month",
         features: [
-          "✅ 24,000+ Live Channels",
+          "✅ 24,000+ Channels",
           "✅ 160,000+ Movies & Series",
-          "✅ 4K Quality Streaming",
-          "✅ All Devices Supported",
-          "✅ Multi-device Support (2)",
-          "✅ 24/7 Customer Support",
-          "✅ No Buffering Guarantee"
+          "✅ No +18 Channels",
+          "✅ Automatic Updates",
+          "✅ Live Support 24/7",
+          "✅ High Quality",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stable Servers Without Interruptions",
+          "✅ 7-Day Money-Back Guarantee"
         ]
       },
       {
@@ -456,28 +468,15 @@ export const translations = {
         price: "29.99",
         period: "total ($9.99/mo)",
         features: [
-          "✅ 24,000+ Live Channels",
+          "✅ 24,000+ Channels",
           "✅ 160,000+ Movies & Series",
-          "✅ 4K Quality Streaming",
-          "✅ All Devices Supported",
-          "✅ Multi-device Support (2)",
-          "✅ 24/7 Customer Support",
-          "✅ No Buffering Guarantee",
-          "✅ Money-back Guarantee"
-        ]
-      },
-      {
-        name: "6 Months",
-        price: "39.99",
-        period: "total ($6.66/mo)",
-        features: [
-          "✅ 24,000+ Live Channels",
-          "✅ 160,000+ Movies & Series",
-          "✅ 4K Quality Streaming",
-          "✅ All Devices Supported",
-          "✅ Multi-device Support (2)",
-          "✅ 24/7 Customer Support",
-          "✅ No Buffering Guarantee"
+          "✅ No +18 Channels",
+          "✅ Automatic Updates",
+          "✅ Live Support 24/7",
+          "✅ High Quality",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stable Servers Without Interruptions",
+          "✅ 7-Day Money-Back Guarantee"
         ]
       },
       {
@@ -485,14 +484,31 @@ export const translations = {
         price: "59.99",
         period: "total ($4.99/mo)",
         features: [
-          "✅ 24,000+ Live Channels",
+          "✅ 24,000+ Channels",
           "✅ 160,000+ Movies & Series",
-          "✅ 4K Quality Streaming",
-          "✅ All Devices Supported",
-          "✅ Multi-device Support (2)",
-          "✅ 24/7 Customer Support",
-          "✅ No Buffering Guarantee",
-          "✅ Best Value Deal"
+          "✅ No +18 Channels",
+          "✅ Automatic Updates",
+          "✅ Live Support 24/7",
+          "✅ High Quality",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stable Servers Without Interruptions",
+          "✅ 7-Day Money-Back Guarantee"
+        ]
+      },
+      {
+        name: "6 Months",
+        price: "39.99",
+        period: "total ($6.66/mo)",
+        features: [
+          "✅ 24,000+ Channels",
+          "✅ 160,000+ Movies & Series",
+          "✅ No +18 Channels",
+          "✅ Automatic Updates",
+          "✅ Live Support 24/7",
+          "✅ High Quality",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stable Servers Without Interruptions",
+          "✅ 7-Day Money-Back Guarantee"
         ]
       }
     ],
@@ -504,14 +520,15 @@ export const translations = {
         price: "17.99",
         period: "per month",
         features: [
-          "✅ 33,000+ Live Channels",
-          "✅ 200,000+ Movies & Series",
-          "✅ 8K Quality Streaming",
-          "✅ All Devices Supported",
-          "✅ Multi-device Support (5)",
-          "✅ 24/7 Priority Support",
-          "✅ No Buffering Guarantee",
-          "✅ Premium Sports Channels"
+          "✅ 33,000+ Channels",
+          "✅ 170,000+ Movies & Series",
+          "✅ No +18 Channels",
+          "✅ Automatic Updates",
+          "✅ Live Support 24/7",
+          "✅ High Quality",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stable Servers Without Interruptions",
+          "✅ 7-Day Money-Back Guarantee"
         ]
       },
       {
@@ -519,30 +536,15 @@ export const translations = {
         price: "37.99",
         period: "total ($12.66/mo)",
         features: [
-          "✅ 33,000+ Live Channels",
-          "✅ 200,000+ Movies & Series",
-          "✅ 8K Quality Streaming",
-          "✅ All Devices Supported",
-          "✅ Multi-device Support (5)",
-          "✅ 24/7 Priority Support",
-          "✅ No Buffering Guarantee",
-          "✅ Premium Sports Channels",
-          "✅ Money-back Guarantee"
-        ]
-      },
-      {
-        name: "6 Months",
-        price: "47.99",
-        period: "total ($7.99/mo)",
-        features: [
-          "✅ 33,000+ Live Channels",
-          "✅ 200,000+ Movies & Series",
-          "✅ 8K Quality Streaming",
-          "✅ All Devices Supported",
-          "✅ Multi-device Support (5)",
-          "✅ 24/7 Priority Support",
-          "✅ No Buffering Guarantee",
-          "✅ Premium Sports Channels"
+          "✅ 33,000+ Channels",
+          "✅ 170,000+ Movies & Series",
+          "✅ No +18 Channels",
+          "✅ Automatic Updates",
+          "✅ Live Support 24/7",
+          "✅ High Quality",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stable Servers Without Interruptions",
+          "✅ 7-Day Money-Back Guarantee"
         ]
       },
       {
@@ -550,15 +552,31 @@ export const translations = {
         price: "67.99",
         period: "total ($5.66/mo)",
         features: [
-          "✅ 33,000+ Live Channels",
-          "✅ 200,000+ Movies & Series",
-          "✅ 8K Quality Streaming",
-          "✅ All Devices Supported",
-          "✅ Multi-device Support (5)",
-          "✅ 24/7 Priority Support",
-          "✅ No Buffering Guarantee",
-          "✅ Premium Sports Channels",
-          "✅ Best Value Deal"
+          "✅ 33,000+ Channels",
+          "✅ 170,000+ Movies & Series",
+          "✅ No +18 Channels",
+          "✅ Automatic Updates",
+          "✅ Live Support 24/7",
+          "✅ High Quality",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stable Servers Without Interruptions",
+          "✅ 7-Day Money-Back Guarantee"
+        ]
+      },
+      {
+        name: "6 Months",
+        price: "47.99",
+        period: "total ($7.99/mo)",
+        features: [
+          "✅ 33,000+ Channels",
+          "✅ 170,000+ Movies & Series",
+          "✅ No +18 Channels",
+          "✅ Automatic Updates",
+          "✅ Live Support 24/7",
+          "✅ High Quality",
+          "✅ SD/HD/FHD/4K",
+          "✅ Stable Servers Without Interruptions",
+          "✅ 7-Day Money-Back Guarantee"
         ]
       }
     ],
@@ -721,7 +739,7 @@ export const translations = {
 
     // SEO
     homeTitle: "StreamBe IPTV Belgium | Reliable IPTV subscription",
-    homeDescription: "IPTV Belgium with 33,000+ live channels and 160,000+ movies and series in HD/4K. Choose a reliable IPTV subscription, start streaming fast, and try a free 24-hour test first.",
+    homeDescription: "Choose StreamBe Standard with 24,000+ live channels and 160,000+ movies and series, or Premium with 33,000+ live channels and 170,000+ movies and series in HD/4K. Start streaming fast and try a free 24-hour test first.",
     homeKeywords: "iptv belgium, iptv abonnement, streambe iptv, buy iptv, belgium iptv",
     aboutKeywords: "streambe iptv, iptv belgium, iptv abonnement, buy iptv",
 
@@ -742,13 +760,13 @@ export const translations = {
 
     // Hero Section
     heroTitle: "🎬 StreamBe IPTV Belgique",
-    heroSubtitle: "Choisissez l’abonnement IPTV Belgique pour la Belgique et les Pays-Bas. Acheter un abonnement IPTV est simple avec StreamBe : activation rapide, 33 000+ chaînes en direct et streaming fluide.",
+    heroSubtitle: "Profitez de 33 000+ chaînes en direct et 170 000+ films et séries en HD/4K, avec une activation rapide et un streaming stable en Belgique et aux Pays-Bas.",
     heroButton1: "Acheter",
     heroButton2: "Test Gratuit",
     trialWhatsAppMessage: "Bonjour, je souhaite essayer un test IPTV gratuit de 24 heures.",
     heroStat1: "33 000+",
     heroStat1Label: "Chaînes en direct",
-    heroStat2: "160 000+",
+    heroStat2: "170 000+",
     heroStat2Label: "Films & Séries",
     heroStat3: "4K",
     heroStat3Label: "Streaming Ultra HD",
@@ -791,6 +809,7 @@ export const translations = {
     // Additional Feature Messages
     worksOnAllDevices: "Fonctionne sur tous les appareils",
     appPreview: "Aperçu de l’application",
+    devicesShowcaseAlt: "IPTV sur tous les appareils : TV, ordinateur portable, tablette et smartphone",
 
     // Pricing Section
     pricingTitle: "Abonnements IPTV Belgique",
@@ -808,13 +827,15 @@ export const translations = {
         price: "14.99",
         period: "par mois",
         features: [
-          "✅ 24 000+ Chaînes en direct",
+          "✅ 24 000+ chaînes",
           "✅ 160 000+ Films & Séries",
-          "✅ Streaming 4K",
-          "✅ Compatible tous appareils",
-          "✅ Support multi-appareils (2)",
-          "✅ Assistance 24/7",
-          "✅ Streaming sans souci"
+          "✅ Pas de chaîne +18",
+          "✅ Mise à jour automatique",
+          "✅ Assistance en direct 24h/24 et 7j/7",
+          "✅ Haute qualité",
+          "✅ SD/HD/FHD/4K",
+          "✅ Serveurs stables et sans coupure",
+          "✅ Remboursement sous 7 jours"
         ]
       },
       {
@@ -822,28 +843,15 @@ export const translations = {
         price: "29.99",
         period: "total (€9.99/mois)",
         features: [
-          "✅ 24 000+ Chaînes en direct",
+          "✅ 24 000+ chaînes",
           "✅ 160 000+ Films & Séries",
-          "✅ Streaming 4K",
-          "✅ Compatible tous appareils",
-          "✅ Support multi-appareils (2)",
-          "✅ Assistance 24/7",
-          "✅ Streaming sans souci",
-          "✅ Garantie satisfait ou remboursé"
-        ]
-      },
-      {
-        name: "6 Mois",
-        price: "39.99",
-        period: "total (€6.66/mois)",
-        features: [
-          "✅ 24 000+ Chaînes en direct",
-          "✅ 160 000+ Films & Séries",
-          "✅ Streaming 4K",
-          "✅ Compatible tous appareils",
-          "✅ Support multi-appareils (2)",
-          "✅ Assistance 24/7",
-          "✅ Streaming sans souci"
+          "✅ Pas de chaîne +18",
+          "✅ Mise à jour automatique",
+          "✅ Assistance en direct 24h/24 et 7j/7",
+          "✅ Haute qualité",
+          "✅ SD/HD/FHD/4K",
+          "✅ Serveurs stables et sans coupure",
+          "✅ Remboursement sous 7 jours"
         ]
       },
       {
@@ -851,14 +859,31 @@ export const translations = {
         price: "59.99",
         period: "total (€4.99/mois)",
         features: [
-          "✅ 24 000+ Chaînes en direct",
+          "✅ 24 000+ chaînes",
           "✅ 160 000+ Films & Séries",
-          "✅ Streaming 4K",
-          "✅ Compatible tous appareils",
-          "✅ Support multi-appareils (2)",
-          "✅ Assistance 24/7",
-          "✅ Streaming sans souci",
-          "✅ Meilleur rapport qualité-prix"
+          "✅ Pas de chaîne +18",
+          "✅ Mise à jour automatique",
+          "✅ Assistance en direct 24h/24 et 7j/7",
+          "✅ Haute qualité",
+          "✅ SD/HD/FHD/4K",
+          "✅ Serveurs stables et sans coupure",
+          "✅ Remboursement sous 7 jours"
+        ]
+      },
+      {
+        name: "6 Mois",
+        price: "39.99",
+        period: "total (€6.66/mois)",
+        features: [
+          "✅ 24 000+ chaînes",
+          "✅ 160 000+ Films & Séries",
+          "✅ Pas de chaîne +18",
+          "✅ Mise à jour automatique",
+          "✅ Assistance en direct 24h/24 et 7j/7",
+          "✅ Haute qualité",
+          "✅ SD/HD/FHD/4K",
+          "✅ Serveurs stables et sans coupure",
+          "✅ Remboursement sous 7 jours"
         ]
       }
     ],
@@ -870,14 +895,15 @@ export const translations = {
         price: "17.99",
         period: "par mois",
         features: [
-          "✅ 33 000+ Chaînes en direct",
-          "✅ 200 000+ Films & Séries",
-          "✅ Streaming 8K",
-          "✅ Compatible tous appareils",
-          "✅ Support multi-appareils (5)",
-          "✅ Assistance prioritaire 24/7",
-          "✅ Streaming sans souci",
-          "✅ Chaînes sport premium"
+          "✅ +33 000 chaînes",
+          "✅ 170 000+ Films & Séries",
+          "✅ Pas de chaîne +18",
+          "✅ Mise à jour automatique",
+          "✅ Assistance en direct 24h/24 et 7j/7",
+          "✅ Haute qualité",
+          "✅ SD/HD/FHD/4K",
+          "✅ Serveurs stables et sans coupure",
+          "✅ Remboursement sous 7 jours"
         ]
       },
       {
@@ -885,30 +911,15 @@ export const translations = {
         price: "37.99",
         period: "total (€12.66/mois)",
         features: [
-          "✅ 33 000+ Chaînes en direct",
-          "✅ 200 000+ Films & Séries",
-          "✅ Streaming 8K",
-          "✅ Compatible tous appareils",
-          "✅ Support multi-appareils (5)",
-          "✅ Assistance prioritaire 24/7",
-          "✅ Streaming sans souci",
-          "✅ Chaînes sport premium",
-          "✅ Garantie satisfait ou remboursé"
-        ]
-      },
-      {
-        name: "6 Mois",
-        price: "47.99",
-        period: "total (€7.99/mois)",
-        features: [
-          "✅ 33 000+ Chaînes en direct",
-          "✅ 200 000+ Films & Séries",
-          "✅ Streaming 8K",
-          "✅ Compatible tous appareils",
-          "✅ Support multi-appareils (5)",
-          "✅ Assistance prioritaire 24/7",
-          "✅ Streaming sans souci",
-          "✅ Chaînes sport premium"
+          "✅ +33 000 chaînes",
+          "✅ 170 000+ Films & Séries",
+          "✅ Pas de chaîne +18",
+          "✅ Mise à jour automatique",
+          "✅ Assistance en direct 24h/24 et 7j/7",
+          "✅ Haute qualité",
+          "✅ SD/HD/FHD/4K",
+          "✅ Serveurs stables et sans coupure",
+          "✅ Remboursement sous 7 jours"
         ]
       },
       {
@@ -916,15 +927,31 @@ export const translations = {
         price: "67.99",
         period: "total (€5.66/mois)",
         features: [
-          "✅ 33 000+ Chaînes en direct",
-          "✅ 200 000+ Films & Séries",
-          "✅ Streaming 8K",
-          "✅ Compatible tous appareils",
-          "✅ Support multi-appareils (5)",
-          "✅ Assistance prioritaire 24/7",
-          "✅ Streaming sans souci",
-          "✅ Chaînes sport premium",
-          "✅ Meilleur rapport qualité-prix"
+          "✅ +33 000 chaînes",
+          "✅ 170 000+ Films & Séries",
+          "✅ Pas de chaîne +18",
+          "✅ Mise à jour automatique",
+          "✅ Assistance en direct 24h/24 et 7j/7",
+          "✅ Haute qualité",
+          "✅ SD/HD/FHD/4K",
+          "✅ Serveurs stables et sans coupure",
+          "✅ Remboursement sous 7 jours"
+        ]
+      },
+      {
+        name: "6 Mois",
+        price: "47.99",
+        period: "total (€7.99/mois)",
+        features: [
+          "✅ +33 000 chaînes",
+          "✅ 170 000+ Films & Séries",
+          "✅ Pas de chaîne +18",
+          "✅ Mise à jour automatique",
+          "✅ Assistance en direct 24h/24 et 7j/7",
+          "✅ Haute qualité",
+          "✅ SD/HD/FHD/4K",
+          "✅ Serveurs stables et sans coupure",
+          "✅ Remboursement sous 7 jours"
         ]
       }
     ],
@@ -1058,7 +1085,7 @@ export const translations = {
 
     // SEO
     homeTitle: "StreamBe IPTV Belgique | Abonnement IPTV fiable",
-    homeDescription: "IPTV Belgique avec plus de 33 000 chaînes en direct et plus de 160 000 films et séries en HD/4K. Choisissez un abonnement IPTV fiable, activez rapidement et profitez d’un test gratuit de 24 heures.",
+    homeDescription: "Choisissez StreamBe Standard avec 24 000+ chaînes en direct et 160 000+ films et séries, ou Premium avec 33 000+ chaînes en direct et 170 000+ films et séries en HD/4K. Activez rapidement et profitez d’un test gratuit de 24 heures.",
     homeKeywords: "iptv belgique, abonnement iptv, streambe iptv, acheter iptv",
     aboutKeywords: "streambe iptv, iptv belgique, abonnement iptv, acheter iptv",
 

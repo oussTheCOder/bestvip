@@ -12,13 +12,13 @@ const copy = {
   nl: {
     title: 'IPTV Belgie | StreamBe',
     description:
-      'Ontdek IPTV Belgie met 33.000+ live kanalen, 160.000+ films en series in HD/4K en 24 uur gratis test.',
+      'Ontdek StreamBe Standard met 24.000+ live kanalen en 160.000+ films en series, of Premium met 33.000+ live kanalen en 170.000+ films en series in HD/4K.',
     h1: 'IPTV Belgie met snelle activatie en stabiele streaming',
     intro:
       'Deze pagina is gericht op IPTV Belgie. Je vindt hier een helder overzicht van wat je krijgt, voor wie het geschikt is en hoe je snel kunt starten.',
     points: [
-      '33.000+ live kanalen voor Belgie en Nederland',
-      '160.000+ films en series in HD/4K kwaliteit',
+      'Standard: 24.000+ live kanalen en 160.000+ films en series',
+      'Premium: 33.000+ live kanalen en 170.000+ films en series',
       '24 uur gratis test om eerst te proberen',
     ],
     ctaPrimary: 'Start je gratis test',
@@ -29,13 +29,13 @@ const copy = {
   en: {
     title: 'IPTV Belgium | StreamBe',
     description:
-      'Explore IPTV Belgium with 33,000+ live channels, 160,000+ movies and series in HD/4K, plus a free 24-hour test.',
+      'Explore StreamBe Standard with 24,000+ live channels and 160,000+ movies and series, or Premium with 33,000+ live channels and 170,000+ movies and series in HD/4K.',
     h1: 'IPTV Belgium with fast activation and stable streaming',
     intro:
       'This page focuses on IPTV Belgium. You get a clear overview of what is included, who it is for, and how to start quickly.',
     points: [
-      '33,000+ live channels for Belgium and the Netherlands',
-      '160,000+ movies and series in HD/4K quality',
+      'Standard: 24,000+ live channels and 160,000+ movies and series',
+      'Premium: 33,000+ live channels and 170,000+ movies and series',
       'Free 24-hour test before you choose a plan',
     ],
     ctaPrimary: 'Start Free Trial',
@@ -46,13 +46,13 @@ const copy = {
   fr: {
     title: 'IPTV Belgique | StreamBe',
     description:
-      'Decouvrez IPTV Belgique avec 33 000+ chaines en direct, 160 000+ films et series en HD/4K et un test gratuit de 24 heures.',
+      'Decouvrez StreamBe Standard avec 24 000+ chaines en direct et 160 000+ films et series, ou Premium avec 33 000+ chaines en direct et 170 000+ films et series en HD/4K.',
     h1: 'IPTV Belgique avec activation rapide et streaming stable',
     intro:
       'Cette page est consacree a IPTV Belgique. Vous y trouverez un resume clair de l\'offre et la meilleure facon de commencer rapidement.',
     points: [
-      '33 000+ chaines en direct pour la Belgique et les Pays-Bas',
-      '160 000+ films et series en qualite HD/4K',
+      'Standard : 24 000+ chaines en direct et 160 000+ films et series',
+      'Premium : 33 000+ chaines en direct et 170 000+ films et series',
       'Test gratuit de 24 heures avant de choisir',
     ],
     ctaPrimary: 'Demarrer le test gratuit',

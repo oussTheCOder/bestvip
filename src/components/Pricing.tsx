@@ -75,25 +75,24 @@ const Pricing: React.FC = () => {
 
                 <div style={{
                     display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
                     gap: '30px'
-                }}>
+                }} className="pricing-grid">
                     {plans.map((plan, index) => (
                         <div key={index}
+                            className={index === 2 ? 'pricing-card pricing-card-featured' : 'pricing-card'}
                             style={{
-                                background: index === 1
+                                background: index === 2
                                     ? 'linear-gradient(135deg, rgba(0, 212, 255, 0.15) 0%, rgba(0, 153, 255, 0.08) 100%)'
                                     : 'rgba(20, 20, 30, 0.5)',
-                                border: index === 1
+                                border: index === 2
                                     ? '2px solid #00d4ff'
                                     : '1px solid rgba(0, 212, 255, 0.1)',
                                 borderRadius: '12px',
                                 padding: '40px 30px',
                                 position: 'relative',
-                                transform: index === 1 ? 'scale(1.05)' : 'scale(1)',
                                 transition: 'all 0.3s'
                             }}>
-                            {index === 1 && (
+                            {index === 2 && (
                                 <div style={{
                                     position: 'absolute',
                                     top: '-15px',

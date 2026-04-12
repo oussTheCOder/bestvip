@@ -10,17 +10,17 @@ const HeroSection: React.FC = () => {
 
     return (
         <section style={{
-            background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)',
-            backgroundImage: 'url(/images/hero-bg.svg)',
+            background: '#050510',
+            backgroundImage: 'linear-gradient(110deg, rgba(5, 5, 16, 0.92) 0%, rgba(5, 5, 16, 0.8) 45%, rgba(5, 5, 16, 0.55) 100%), url(/images/hero.webp)',
             backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundBlendMode: 'overlay',
+            backgroundPosition: 'center right',
+            backgroundRepeat: 'no-repeat',
             padding: '100px 20px',
             minHeight: '600px',
             display: 'flex',
             alignItems: 'center',
         }}>
-            <div className="container" style={{ display: 'flex', alignItems: 'center', gap: '60px', flexWrap: 'wrap', maxWidth: '1200px' }}>
+            <div className="container" style={{ display: 'flex', alignItems: 'center', maxWidth: '1200px' }}>
                 <div style={{ flex: '1', minWidth: '300px' }}>
                     <h1 style={{
                         fontSize: '3.5rem',
@@ -70,17 +70,6 @@ const HeroSection: React.FC = () => {
                             <p style={{ color: '#b0b0b0' }}>{t('heroStat3Label')}</p>
                         </div>
                     </div>
-                </div>
-                <div style={{ flex: '1', minWidth: '300px', display: 'flex', justifyContent: 'center' }}>
-                    <img
-                        src="/images/tv-screen.svg"
-                        alt="IPTV Streaming on TV"
-                        style={{
-                            maxWidth: '100%',
-                            height: 'auto',
-                            filter: 'drop-shadow(0 20px 40px rgba(0, 212, 255, 0.3))'
-                        }}
-                    />
                 </div>
             </div>
         </section>

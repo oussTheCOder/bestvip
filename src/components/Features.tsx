@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { useLanguage } from '../contexts/LanguageContext';
 import { translations } from '../utils/translations';
 
@@ -62,11 +63,15 @@ const Features: React.FC = () => {
                     }}>
                         {t('worksOnAllDevices')}
                     </h3>
-                    <img
-                        src="/images/modern-devices.svg"
-                        alt="IPTV works on all devices"
+                    <Image
+                        src="/images/all-devices-supported-v2.jpeg"
+                        alt={t('devicesShowcaseAlt')}
+                        width={700}
+                        height={243}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 85vw, 900px"
                         style={{
-                            maxWidth: '100%',
+                            width: '100%',
+                            maxWidth: '900px',
                             height: 'auto',
                             filter: 'drop-shadow(0 20px 40px rgba(0, 212, 255, 0.2))'
                         }}

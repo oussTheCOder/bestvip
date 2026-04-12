@@ -12,7 +12,7 @@ const copy = {
   nl: {
     title: 'IPTV abonnement Belgie | StreamBe',
     description:
-      'Vergelijk IPTV abonnement opties voor Belgie: standaard of premium, 33.000+ kanalen, 160.000+ films en series, en snelle activatie.',
+      'Vergelijk StreamBe Standard met 24.000+ kanalen en 160.000+ films en series, of Premium met 33.000+ kanalen en 170.000+ films en series.',
     h1: 'IPTV abonnement Belgie: welke optie past bij jou?',
     intro:
       'Op deze pagina leggen we uit hoe je het juiste IPTV abonnement kiest op basis van kijkgedrag, apparaten en gewenste ondersteuning.',
@@ -38,7 +38,7 @@ const copy = {
   en: {
     title: 'IPTV subscription Belgium | StreamBe',
     description:
-      'Compare IPTV subscription options for Belgium: standard or premium, 33,000+ channels, 160,000+ movies and series, and fast activation.',
+      'Compare StreamBe Standard with 24,000+ channels and 160,000+ movies and series, or Premium with 33,000+ channels and 170,000+ movies and series.',
     h1: 'IPTV subscription Belgium: which plan fits you?',
     intro:
       'This page helps you choose the right IPTV subscription based on viewing habits, devices, and support needs.',
@@ -64,7 +64,7 @@ const copy = {
   fr: {
     title: 'Abonnement IPTV Belgique | StreamBe',
     description:
-      'Comparez les options d abonnement IPTV pour la Belgique : standard ou premium, 33 000+ chaines, 160 000+ films et series, activation rapide.',
+      'Comparez StreamBe Standard avec 24 000+ chaines et 160 000+ films et series, ou Premium avec 33 000+ chaines et 170 000+ films et series.',
     h1: 'Abonnement IPTV Belgique : quelle offre choisir ?',
     intro:
       'Cette page vous aide a choisir la bonne formule IPTV selon vos habitudes, vos appareils et le niveau de support souhaite.',

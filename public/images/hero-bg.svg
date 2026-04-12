@@ -1,45 +1,367 @@
 <svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <!-- Main background gradient: very dark navy -->
     <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0a14;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#1a1a2e;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#050510;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#0d0d2b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a1628;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.3" />
-      <stop offset="100%" style="stop-color:#0099ff;stop-opacity:0.1" />
+
+    <!-- Cyan glow -->
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.35" />
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:0" />
     </radialGradient>
+
+    <!-- Purple glow -->
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0" />
+    </radialGradient>
+
+    <!-- Blue glow -->
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:0.35" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:0" />
+    </radialGradient>
+
+    <!-- TV screen gradient (dark glass look) -->
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2040;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#061020;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Screen content gradient (cinema blue) -->
+    <linearGradient id="screenContent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0d2137;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#162032;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Card gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#111827;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0f1a;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Card highlight 1 (action) -->
+    <linearGradient id="cardColor1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0c1e30;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Card highlight 2 (sport) -->
+    <linearGradient id="cardColor2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3020;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a1810;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Card highlight 3 (drama) -->
+    <linearGradient id="cardColor3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d1a3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#160d1e;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Subtle dot grid pattern -->
+    <pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1" fill="rgba(0,212,255,0.07)"/>
+    </pattern>
+
+    <!-- Subtle line grid -->
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(0,180,255,0.04)" stroke-width="0.8"/>
+    </pattern>
+
+    <!-- TV screen inner glow -->
+    <filter id="screenGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Neon edge glow filter -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Outer glow filter for big TV -->
+    <filter id="bigGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Clip for TV screen -->
+    <clipPath id="tvClip">
+      <rect x="1060" y="130" width="720" height="420" rx="12"/>
+    </clipPath>
+
+    <!-- Clip for small TV 1 -->
+    <clipPath id="tvSmall1Clip">
+      <rect x="1050" y="600" width="280" height="165" rx="8"/>
+    </clipPath>
+
+    <!-- Clip for small TV 2 -->
+    <clipPath id="tvSmall2Clip">
+      <rect x="1360" y="580" width="280" height="165" rx="8"/>
+    </clipPath>
   </defs>
 
-  <!-- Background -->
+  <!-- ─── BASE BACKGROUND ─── -->
   <rect width="1920" height="1080" fill="url(#heroBg)"/>
-
-  <!-- Glowing orbs -->
-  <circle cx="300" cy="200" r="150" fill="url(#glow)" opacity="0.6"/>
-  <circle cx="1600" cy="400" r="200" fill="url(#glow)" opacity="0.4"/>
-  <circle cx="800" cy="800" r="180" fill="url(#glow)" opacity="0.5"/>
-
-  <!-- Geometric shapes -->
-  <polygon points="100,100 200,50 250,150 150,200" fill="rgba(0, 212, 255, 0.1)" opacity="0.3"/>
-  <polygon points="1500,200 1600,150 1650,250 1550,300" fill="rgba(0, 153, 255, 0.1)" opacity="0.3"/>
-  <polygon points="700,600 800,550 850,650 750,700" fill="rgba(0, 212, 255, 0.1)" opacity="0.3"/>
-
-  <!-- Streaming particles -->
-  <circle cx="400" cy="300" r="3" fill="#00d4ff" opacity="0.8"/>
-  <circle cx="420" cy="320" r="2" fill="#0099ff" opacity="0.6"/>
-  <circle cx="440" cy="340" r="3" fill="#00d4ff" opacity="0.8"/>
-  <circle cx="460" cy="360" r="2" fill="#0099ff" opacity="0.6"/>
-  <circle cx="480" cy="380" r="3" fill="#00d4ff" opacity="0.8"/>
-
-  <circle cx="1400" cy="500" r="3" fill="#00d4ff" opacity="0.8"/>
-  <circle cx="1420" cy="520" r="2" fill="#0099ff" opacity="0.6"/>
-  <circle cx="1440" cy="540" r="3" fill="#00d4ff" opacity="0.8"/>
-  <circle cx="1460" cy="560" r="2" fill="#0099ff" opacity="0.6"/>
-  <circle cx="1480" cy="580" r="3" fill="#00d4ff" opacity="0.8"/>
-
-  <!-- Subtle grid pattern -->
-  <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
-    <path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(0, 212, 255, 0.05)" stroke-width="1"/>
-  </pattern>
+  <rect width="1920" height="1080" fill="url(#dots)" opacity="0.8"/>
   <rect width="1920" height="1080" fill="url(#grid)"/>
+
+  <!-- ─── ATMOSPHERIC GLOW ORBS ─── -->
+  <!-- Large cyan orb top-left -->
+  <ellipse cx="220" cy="300" rx="380" ry="320" fill="url(#glowCyan)" opacity="0.5"/>
+  <!-- Large purple orb right -->
+  <ellipse cx="1700" cy="500" rx="350" ry="300" fill="url(#glowPurple)" opacity="0.45"/>
+  <!-- Blue orb bottom center -->
+  <ellipse cx="900" cy="900" rx="400" ry="250" fill="url(#glowBlue)" opacity="0.35"/>
+  <!-- Small cyan accent top-right -->
+  <ellipse cx="1400" cy="100" rx="200" ry="150" fill="url(#glowCyan)" opacity="0.3"/>
+
+  <!-- ─── STREAMING LINES / SIGNAL WAVES ─── -->
+  <!-- Horizontal stream lines left side -->
+  <line x1="0" y1="350" x2="600" y2="350" stroke="#00d4ff" stroke-width="1" opacity="0.12"/>
+  <line x1="0" y1="370" x2="500" y2="370" stroke="#00d4ff" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="390" x2="550" y2="390" stroke="#2563eb" stroke-width="1" opacity="0.1"/>
+  <line x1="0" y1="410" x2="480" y2="410" stroke="#00d4ff" stroke-width="0.5" opacity="0.06"/>
+  <line x1="0" y1="430" x2="520" y2="430" stroke="#7c3aed" stroke-width="1" opacity="0.1"/>
+
+  <!-- Signal arcs emanating from big TV -->
+  <path d="M 1060 340 Q 700 340 700 700" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.1" stroke-dasharray="8,12"/>
+  <path d="M 1060 340 Q 600 200 400 500" fill="none" stroke="#2563eb" stroke-width="1" opacity="0.08" stroke-dasharray="6,14"/>
+
+  <!-- ─── MAIN BIG TV / MONITOR ─── -->
+  <!-- TV outer frame shadow -->
+  <rect x="1045" y="115" width="750" height="450" rx="18" fill="#00d4ff" opacity="0.08" filter="url(#bigGlow)"/>
+  <!-- TV stand base -->
+  <rect x="1360" y="565" width="130" height="18" rx="9" fill="#1a2540" opacity="0.9"/>
+  <rect x="1400" y="547" width="50" height="22" rx="4" fill="#1a2540" opacity="0.9"/>
+  <!-- TV frame -->
+  <rect x="1050" y="120" width="740" height="440" rx="16" fill="#0f172a" stroke="#1e3a5f" stroke-width="2"/>
+  <!-- TV bezel inner -->
+  <rect x="1060" y="130" width="720" height="420" rx="12" fill="url(#screenGrad)"/>
+  <!-- TV screen content (clipped) -->
+  <g clip-path="url(#tvClip)">
+    <!-- Sky / scene background -->
+    <rect x="1060" y="130" width="720" height="420" fill="url(#screenContent)"/>
+    <!-- Cinematic horizontal bands -->
+    <rect x="1060" y="130" width="720" height="60" fill="#000" opacity="0.55"/>
+    <rect x="1060" y="490" width="720" height="60" fill="#000" opacity="0.55"/>
+    <!-- Abstract movie scene: city lights -->
+    <ellipse cx="1420" cy="420" rx="300" ry="80" fill="#0a1e35" opacity="0.8"/>
+    <rect x="1100" y="340" width="30" height="90" fill="#112238" opacity="0.9"/>
+    <rect x="1140" y="310" width="20" height="120" fill="#0f2030" opacity="0.9"/>
+    <rect x="1170" y="350" width="35" height="80" fill="#0d1e30" opacity="0.9"/>
+    <rect x="1240" y="320" width="25" height="110" fill="#132540" opacity="0.9"/>
+    <rect x="1680" y="330" width="30" height="100" fill="#112238" opacity="0.9"/>
+    <rect x="1720" y="350" width="20" height="80" fill="#0f2030" opacity="0.9"/>
+    <rect x="1750" y="315" width="28" height="115" fill="#132540" opacity="0.9"/>
+    <!-- City window lights -->
+    <rect x="1104" y="360" width="5" height="4" fill="#ffd700" opacity="0.8"/>
+    <rect x="1112" y="368" width="5" height="4" fill="#ffd700" opacity="0.6"/>
+    <rect x="1104" y="376" width="5" height="4" fill="#ffd700" opacity="0.7"/>
+    <rect x="1144" y="325" width="5" height="4" fill="#ffd700" opacity="0.8"/>
+    <rect x="1144" y="340" width="5" height="4" fill="#ffd700" opacity="0.5"/>
+    <rect x="1174" y="365" width="5" height="4" fill="#00d4ff" opacity="0.7"/>
+    <rect x="1244" y="335" width="5" height="4" fill="#ffd700" opacity="0.8"/>
+    <rect x="1252" y="350" width="5" height="4" fill="#ffd700" opacity="0.6"/>
+    <rect x="1684" y="350" width="5" height="4" fill="#ffd700" opacity="0.8"/>
+    <rect x="1684" y="365" width="5" height="4" fill="#ffd700" opacity="0.6"/>
+    <rect x="1724" y="360" width="5" height="4" fill="#ffd700" opacity="0.7"/>
+    <rect x="1754" y="330" width="5" height="4" fill="#00d4ff" opacity="0.7"/>
+    <!-- Hero character silhouette -->
+    <ellipse cx="1420" cy="390" rx="18" ry="20" fill="#020810" opacity="0.95"/>
+    <rect x="1410" y="408" width="20" height="30" fill="#020810" opacity="0.95"/>
+    <rect x="1400" y="415" width="12" height="18" rx="3" fill="#020810" opacity="0.95"/>
+    <rect x="1428" y="415" width="12" height="18" rx="3" fill="#020810" opacity="0.95"/>
+    <rect x="1414" y="435" width="8" height="20" rx="3" fill="#020810" opacity="0.95"/>
+    <rect x="1422" y="435" width="8" height="20" rx="3" fill="#020810" opacity="0.95"/>
+    <!-- Screen bottom info bar -->
+    <rect x="1060" y="490" width="720" height="60" fill="#060e1a" opacity="0.85"/>
+    <!-- Progress bar -->
+    <rect x="1080" y="508" width="680" height="4" rx="2" fill="#1a2540"/>
+    <rect x="1080" y="508" width="320" height="4" rx="2" fill="#00d4ff"/>
+    <!-- Play/pause and time text placeholders -->
+    <circle cx="1098" cy="530" r="10" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.8"/>
+    <polygon points="1094,525 1094,535 1104,530" fill="#00d4ff" opacity="0.9"/>
+    <rect x="1120" y="524" width="40" height="7" rx="3" fill="#1a2540"/>
+    <rect x="1700" y="524" width="40" height="7" rx="3" fill="#1a2540"/>
+    <!-- Volume icon -->
+    <polygon points="1660,524 1660,534 1665,534 1670,540 1670,518 1665,524" fill="#00d4ff" opacity="0.6"/>
+  </g>
+  <!-- TV screen edge glow -->
+  <rect x="1060" y="130" width="720" height="420" rx="12" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.35" filter="url(#neonGlow)"/>
+  <!-- TV frame edge highlight -->
+  <rect x="1050" y="120" width="740" height="440" rx="16" fill="none" stroke="#1e3a5f" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- ─── FLOATING CONTENT CARDS (right side) ─── -->
+  <!-- Card 1 - ACTION -->
+  <g transform="translate(1050, 600)">
+    <rect width="280" height="165" rx="10" fill="url(#cardColor1)" stroke="#1e3a5f" stroke-width="1.5"/>
+    <g clip-path="url(#tvSmall1Clip)">
+      <!-- Abstract scene -->
+      <rect x="1050" y="600" width="280" height="165" fill="#091520"/>
+      <rect x="1050" y="600" width="280" height="40" fill="#000" opacity="0.5"/>
+      <rect x="1050" y="725" width="280" height="40" fill="#000" opacity="0.5"/>
+      <!-- Scene lights -->
+      <circle cx="1190" cy="690" r="40" fill="#ff4500" opacity="0.15"/>
+      <rect x="1100" y="640" width="15" height="85" fill="#0a1e30" opacity="0.9"/>
+      <rect x="1260" y="650" width="15" height="75" fill="#0a1e30" opacity="0.9"/>
+      <rect x="1104" y="660" width="4" height="3" fill="#ffd700" opacity="0.8"/>
+      <rect x="1264" y="665" width="4" height="3" fill="#ffd700" opacity="0.8"/>
+    </g>
+    <rect width="280" height="165" rx="10" fill="none" stroke="#1e3a5f" stroke-width="1.5"/>
+    <!-- Label -->
+    <rect x="10" y="130" width="60" height="22" rx="4" fill="#ff4500" opacity="0.9"/>
+    <rect x="14" y="136" width="52" height="10" rx="2" fill="#fff" opacity="0.8"/>
+    <!-- Play button -->
+    <circle cx="140" cy="75" r="20" fill="rgba(0,0,0,0.5)" stroke="#00d4ff" stroke-width="1.5"/>
+    <polygon points="134,67 134,83 154,75" fill="#00d4ff"/>
+  </g>
+
+  <!-- Card 2 - SPORTS -->
+  <g transform="translate(1360, 580)">
+    <rect width="280" height="165" rx="10" fill="url(#cardColor2)" stroke="#1a4020" stroke-width="1.5"/>
+    <g clip-path="url(#tvSmall2Clip)">
+      <rect x="1360" y="580" width="280" height="165" fill="#071510"/>
+      <rect x="1360" y="580" width="280" height="40" fill="#000" opacity="0.5"/>
+      <rect x="1360" y="705" width="280" height="40" fill="#000" opacity="0.5"/>
+      <!-- Green field -->
+      <ellipse cx="1500" cy="720" rx="140" ry="50" fill="#0a2010" opacity="0.8"/>
+      <!-- Field lines -->
+      <line x1="1500" y1="640" x2="1500" y2="745" stroke="#1a4020" stroke-width="1" opacity="0.7"/>
+      <ellipse cx="1500" cy="690" rx="30" ry="20" fill="none" stroke="#1a4020" stroke-width="1" opacity="0.5"/>
+    </g>
+    <rect width="280" height="165" rx="10" fill="none" stroke="#1a4020" stroke-width="1.5"/>
+    <!-- Label -->
+    <rect x="10" y="130" width="60" height="22" rx="4" fill="#16a34a" opacity="0.9"/>
+    <rect x="14" y="136" width="52" height="10" rx="2" fill="#fff" opacity="0.8"/>
+    <!-- Play button -->
+    <circle cx="140" cy="75" r="20" fill="rgba(0,0,0,0.5)" stroke="#00d4ff" stroke-width="1.5"/>
+    <polygon points="134,67 134,83 154,75" fill="#00d4ff"/>
+    <!-- Live badge -->
+    <rect x="200" y="10" width="65" height="22" rx="4" fill="#dc2626" opacity="0.9"/>
+    <circle cx="215" cy="21" r="4" fill="#fff" opacity="0.9"/>
+    <rect x="222" y="16" width="35" height="10" rx="2" fill="#fff" opacity="0.8"/>
+  </g>
+
+  <!-- ─── FLOATING MINI INFO CARDS ─── -->
+  <!-- 4K Badge card -->
+  <g transform="translate(1660, 750)">
+    <rect width="200" height="80" rx="10" fill="#0d1b2e" stroke="#00d4ff" stroke-width="1" opacity="0.9"/>
+    <rect x="15" y="18" width="50" height="20" rx="4" fill="#00d4ff" opacity="0.95"/>
+    <rect x="19" y="22" width="42" height="12" rx="2" fill="#000" opacity="0.7"/>
+    <text x="23" y="32" font-family="Arial" font-weight="bold" font-size="11" fill="#00d4ff">4K UHD</text>
+    <rect x="80" y="22" width="105" height="10" rx="3" fill="#1a2540"/>
+    <rect x="80" y="37" width="80" height="8" rx="3" fill="#1a2540"/>
+    <rect x="15" y="52" width="170" height="2" rx="1" fill="#1a2540"/>
+    <rect x="15" y="52" width="120" height="2" rx="1" fill="#00d4ff" opacity="0.7"/>
+    <rect x="15" y="60" width="60" height="8" rx="3" fill="#1a2540"/>
+  </g>
+
+  <!-- Channels count card -->
+  <g transform="translate(1660, 650)">
+    <rect width="200" height="88" rx="10" fill="#0d1b2e" stroke="#7c3aed" stroke-width="1" opacity="0.9"/>
+    <rect x="15" y="15" width="170" height="20" rx="4" fill="#7c3aed" opacity="0.2"/>
+    <circle cx="32" cy="30" r="10" fill="#7c3aed" opacity="0.8"/>
+    <rect x="32" y="26" width="2" height="9" rx="1" fill="#fff"/>
+    <rect x="28" y="30" width="9" height="2" rx="1" fill="#fff"/>
+    <rect x="50" y="22" width="120" height="10" rx="3" fill="#7c3aed" opacity="0.5"/>
+    <rect x="15" y="48" width="170" height="14" rx="4" fill="#1a1040"/>
+    <rect x="19" y="51" width="80" height="8" rx="3" fill="#7c3aed" opacity="0.6"/>
+    <rect x="15" y="68" width="170" height="10" rx="3" fill="#1a1040"/>
+    <rect x="19" y="71" width="55" height="4" rx="2" fill="#7c3aed" opacity="0.4"/>
+  </g>
+
+  <!-- ─── PARTICLE STARS / SCATTERED DOTS ─── -->
+  <!-- Scatter of small star dots across the entire image -->
+  <circle cx="80" cy="90" r="1.5" fill="#fff" opacity="0.4"/>
+  <circle cx="150" cy="40" r="1" fill="#fff" opacity="0.3"/>
+  <circle cx="230" cy="130" r="1.5" fill="#fff" opacity="0.5"/>
+  <circle cx="310" cy="60" r="1" fill="#00d4ff" opacity="0.6"/>
+  <circle cx="380" cy="150" r="1.5" fill="#fff" opacity="0.35"/>
+  <circle cx="450" cy="80" r="1" fill="#fff" opacity="0.25"/>
+  <circle cx="540" cy="180" r="1.5" fill="#00d4ff" opacity="0.5"/>
+  <circle cx="620" cy="50" r="1" fill="#fff" opacity="0.3"/>
+  <circle cx="700" cy="120" r="1.5" fill="#7c3aed" opacity="0.5"/>
+  <circle cx="780" cy="70" r="1" fill="#fff" opacity="0.4"/>
+  <circle cx="870" cy="160" r="1.5" fill="#fff" opacity="0.3"/>
+  <circle cx="950" cy="45" r="1" fill="#00d4ff" opacity="0.5"/>
+  <circle cx="1020" cy="95" r="1.5" fill="#fff" opacity="0.35"/>
+  <circle cx="55" cy="250" r="1" fill="#00d4ff" opacity="0.4"/>
+  <circle cx="120" cy="400" r="1.5" fill="#fff" opacity="0.3"/>
+  <circle cx="190" cy="550" r="1" fill="#7c3aed" opacity="0.4"/>
+  <circle cx="260" cy="700" r="1.5" fill="#fff" opacity="0.35"/>
+  <circle cx="330" cy="850" r="1" fill="#00d4ff" opacity="0.5"/>
+  <circle cx="400" cy="950" r="1.5" fill="#fff" opacity="0.3"/>
+  <circle cx="480" cy="800" r="1" fill="#fff" opacity="0.25"/>
+  <circle cx="560" cy="650" r="1.5" fill="#7c3aed" opacity="0.4"/>
+  <circle cx="640" cy="500" r="1" fill="#fff" opacity="0.3"/>
+  <circle cx="720" cy="780" r="1.5" fill="#00d4ff" opacity="0.45"/>
+  <circle cx="800" cy="900" r="1" fill="#fff" opacity="0.35"/>
+  <circle cx="880" cy="1000" r="1.5" fill="#fff" opacity="0.3"/>
+  <circle cx="960" cy="850" r="1" fill="#00d4ff" opacity="0.4"/>
+
+  <!-- ─── FLOATING CHANNEL ICONS (left/center area) ─── -->
+  <!-- Icon 1: Film reel shape -->
+  <g transform="translate(180, 520)" opacity="0.25">
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#00d4ff" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#00d4ff" stroke-width="1.5"/>
+    <circle cx="0" cy="-18" r="5" fill="#00d4ff"/>
+    <circle cx="0" cy="18" r="5" fill="#00d4ff"/>
+    <circle cx="18" cy="0" r="5" fill="#00d4ff"/>
+    <circle cx="-18" cy="0" r="5" fill="#00d4ff"/>
+  </g>
+
+  <!-- Icon 2: Wi-Fi / signal waves -->
+  <g transform="translate(850, 820)" opacity="0.2">
+    <path d="M-30,10 Q0,-10 30,10" fill="none" stroke="#00d4ff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-20,20 Q0,5 20,20" fill="none" stroke="#00d4ff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-10,30 Q0,22 10,30" fill="none" stroke="#00d4ff" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="34" r="3" fill="#00d4ff"/>
+  </g>
+
+  <!-- Icon 3: Play button circle -->
+  <g transform="translate(480, 300)" opacity="0.15">
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#7c3aed" stroke-width="2"/>
+    <polygon points="-10,-14 -10,14 20,0" fill="#7c3aed"/>
+  </g>
+
+  <!-- Icon 4: Small play button -->
+  <g transform="translate(300, 700)" opacity="0.18">
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+    <polygon points="-6,-9 -6,9 12,0" fill="#2563eb"/>
+  </g>
+
+  <!-- ─── HORIZONTAL SCAN LINES over background (CRT / cinema effect) ─── -->
+  <rect x="0" y="0" width="1920" height="1080" fill="none"
+        style="background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px);"
+        opacity="0.4"/>
+
+  <!-- ─── BOTTOM FADE ─── -->
+  <defs>
+    <linearGradient id="bottomFade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#050510;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#050510;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="700" width="1920" height="380" fill="url(#bottomFade)"/>
+
+  <!-- ─── LEFT SIDE FADE to blend with text ─── -->
+  <defs>
+    <linearGradient id="leftFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#050510;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#050510;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="1080" fill="url(#leftFade)"/>
 </svg>
