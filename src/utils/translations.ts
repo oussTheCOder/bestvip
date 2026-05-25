@@ -7,6 +7,45 @@ export const translations = {
     navPricing: "Prijzen",
     navWhy: "Waarom Ons",
     navAbout: "Over Ons",
+    navTerms: "Voorwaarden",
+
+    termsTitle: "Algemene voorwaarden",
+    termsIntroTitle: "Introductie",
+    termsIntroText1: "Welkom bij Streambe. Deze algemene voorwaarden leggen de regels uit voor het gebruik van onze website en het kopen van abonnementscodes.",
+    termsIntroText2: "Door onze website te bezoeken of een abonnementscode te kopen, bevestigt u dat u deze voorwaarden hebt gelezen, begrepen en geaccepteerd. Als u niet akkoord gaat, stop dan met het gebruik van onze website en diensten.",
+    termsIntroText3: "Streambe kan deze voorwaarden te allen tijde bijwerken. Wijzigingen zijn van toepassing zodra ze op onze website worden gepubliceerd. Voortgezet gebruik van onze diensten betekent dat u de bijgewerkte voorwaarden accepteert.",
+    termsAcceptanceTitle: "Aanvaarding van de voorwaarden",
+    termsAcceptanceText1: "Door Streambe te gebruiken, gaat u akkoord met deze voorwaarden en alle toepasselijke wetten. U bevestigt ook dat u wettelijk bevoegd bent om onze diensten te gebruiken en aankopen te doen.",
+    termsAcceptanceText2: "Deze voorwaarden vormen een overeenkomst tussen u en Streambe.",
+    termsSubscriptionTitle: "Abonnementscodes",
+    termsSubscriptionPoints: [
+      "Streambe biedt abonnementscodes die toegang geven tot geselecteerde streamingdiensten voor een specifieke periode, zoals tijdens het aankoopproces getoond.",
+      "Abonnementscodes zijn uitsluitend voor persoonlijk gebruik. U mag ze niet delen, doorverkopen, overdragen of verspreiden aan anderen.",
+      "Streambe kan een abonnementscode of gerelateerde dienst zonder voorafgaande kennisgeving wijzigen, bijwerken, opschorten of stopzetten."
+    ],
+    termsOrdersTitle: "Bestellingen en betalingen",
+    termsOrdersPoints: [
+      "Om een bestelling te plaatsen moet u een abonnement kiezen, de benodigde gegevens invullen en de betaling voldoen met de beschikbare betaalmethoden.",
+      "U bent verantwoordelijk voor het juist invoeren van uw gegevens, vooral uw e-mailadres, omdat abonnementscodes hier mogelijk naartoe worden gestuurd.",
+      "Prijzen, aanbiedingen en beschikbaarheid kunnen te allen tijde zonder voorafgaande kennisgeving wijzigen."
+    ],
+    termsResponsibilitiesTitle: "Verantwoordelijkheden van de gebruiker",
+    termsResponsibilitiesPoints: [
+      "Zorg voor accurate en actuele informatie.",
+      "Gebruik onze diensten alleen voor wettelijke doeleinden.",
+      "Vermijd acties die schade, onderbreking of beveiligingsproblemen voor onze website kunnen veroorzaken.",
+      "Houd uw accountgegevens privé.",
+      "Meld Streambe als u ongeautoriseerde toegang tot uw account vermoedt."
+    ],
+    termsAvailabilityTitle: "Beschikbaarheid van de dienst",
+    termsAvailabilityText1: "Streambe garandeert niet dat de dienst altijd beschikbaar, ononderbroken of foutloos is.",
+    termsAvailabilityText2: "Streamingkwaliteit en beschikbaarheid van inhoud kunnen variëren afhankelijk van factoren zoals internetverbinding, apparaat, serverstatus en geografische locatie.",
+    termsLiabilityTitle: "Beperking van aansprakelijkheid",
+    termsLiabilityText: "Streambe is niet verantwoordelijk voor direct of indirect verlies, schade, onderbreking of ongemak veroorzaakt door het gebruik van onze website, abonnementscodes of gerelateerde diensten. U gebruikt de website en diensten op eigen verantwoordelijkheid.",
+    termsSuspensionTitle: "Opschorting of beëindiging",
+    termsSuspensionText: "Streambe kan de toegang tot de diensten opschorten of beëindigen als een gebruiker deze voorwaarden overtreedt, onjuiste informatie verstrekt, abonnementscodes misbruikt of zich verdacht of frauduleus gedraagt.",
+    termsChangesTitle: "Wijzigingen in deze voorwaarden",
+    termsChangesText: "Streambe behoudt zich het recht voor om deze algemene voorwaarden elk moment bij te werken of te wijzigen. Het is uw verantwoordelijkheid deze pagina regelmatig te controleren. Voortgezet gebruik van de website na publicatie van wijzigingen betekent dat u de herziene voorwaarden accepteert.",
 
     // Hero Section
     heroTitle: "StreamBe IPTV België & Nederland",
@@ -382,6 +421,45 @@ export const translations = {
     navPricing: "Pricing",
     navWhy: "Why Us",
     navAbout: "About",
+    navTerms: "Terms",
+
+    termsTitle: "Terms and Conditions",
+    termsIntroTitle: "Introduction",
+    termsIntroText1: "Welcome to Streambe. These Terms and Conditions explain the rules for using our website and purchasing subscription codes.",
+    termsIntroText2: "By accessing our website or buying a subscription code, you confirm that you have read, understood, and accepted these terms. If you do not agree with them, please stop using our website and services.",
+    termsIntroText3: "Streambe may update these terms at any time. Any changes will apply once they are published on our website. Continued use of our services means that you accept the updated terms.",
+    termsAcceptanceTitle: "Acceptance of Terms",
+    termsAcceptanceText1: "By using Streambe, you agree to follow these Terms and Conditions and all applicable laws. You also confirm that you are legally allowed to use our services and make purchases.",
+    termsAcceptanceText2: "These terms form an agreement between you and Streambe.",
+    termsSubscriptionTitle: "Subscription Codes",
+    termsSubscriptionPoints: [
+      "Streambe provides subscription codes that give access to selected streaming services for a specific period, as shown during the purchase process.",
+      "Subscription codes are for personal use only. You may not share, resell, transfer, or distribute them to other people.",
+      "Streambe may modify, update, suspend, or stop any subscription code or related service without prior notice."
+    ],
+    termsOrdersTitle: "Orders and Payments",
+    termsOrdersPoints: [
+      "To place an order, you must choose a subscription plan, provide the required information, and complete payment using the available payment methods.",
+      "You are responsible for entering correct details, especially your email address, because subscription codes may be delivered through it.",
+      "Prices, offers, and availability may change at any time without prior notice."
+    ],
+    termsResponsibilitiesTitle: "User Responsibilities",
+    termsResponsibilitiesPoints: [
+      "Provide accurate and updated information.",
+      "Use our services only for lawful purposes.",
+      "Avoid any action that may damage, interrupt, or affect the security of our website.",
+      "Keep your account details private.",
+      "Notify Streambe if you suspect unauthorized access to your account."
+    ],
+    termsAvailabilityTitle: "Service Availability",
+    termsAvailabilityText1: "Streambe does not guarantee that the service will always be available, uninterrupted, or error-free.",
+    termsAvailabilityText2: "Streaming quality and content availability may vary depending on several factors, including internet connection, device, server status, and geographic location.",
+    termsLiabilityTitle: "Limitation of Liability",
+    termsLiabilityText: "Streambe is not responsible for any direct or indirect loss, damage, interruption, or inconvenience caused by the use of our website, subscription codes, or related services. You use the website and services at your own responsibility.",
+    termsSuspensionTitle: "Suspension or Termination",
+    termsSuspensionText: "Streambe may suspend or terminate access to its services if a user violates these terms, provides false information, misuses subscription codes, or engages in suspicious or fraudulent activity.",
+    termsChangesTitle: "Changes to These Terms",
+    termsChangesText: "Streambe reserves the right to update or modify these Terms and Conditions at any time. It is your responsibility to review this page regularly. Your continued use of the website after changes are published means that you accept the revised terms.",
 
     // Hero Section
     heroTitle: "StreamBe IPTV Belgium & Netherlands",
@@ -757,6 +835,45 @@ export const translations = {
     navPricing: "Tarifs",
     navWhy: "Pourquoi Nous",
     navAbout: "À Propos",
+    navTerms: "Conditions",
+
+    termsTitle: "Conditions générales",
+    termsIntroTitle: "Introduction",
+    termsIntroText1: "Bienvenue sur Streambe. Ces conditions générales expliquent les règles d'utilisation de notre site Web et d'achat de codes d'abonnement.",
+    termsIntroText2: "En accédant à notre site Web ou en achetant un code d'abonnement, vous confirmez avoir lu, compris et accepté ces conditions. Si vous n'êtes pas d'accord, veuillez cesser d'utiliser notre site Web et nos services.",
+    termsIntroText3: "Streambe peut mettre à jour ces conditions à tout moment. Les modifications s'appliquent dès leur publication sur notre site Web. Votre utilisation continue de nos services signifie que vous acceptez les conditions mises à jour.",
+    termsAcceptanceTitle: "Acceptation des conditions",
+    termsAcceptanceText1: "En utilisant Streambe, vous acceptez de respecter ces conditions générales et toutes les lois applicables. Vous confirmez également que vous êtes légalement autorisé à utiliser nos services et à effectuer des achats.",
+    termsAcceptanceText2: "Ces conditions constituent un accord entre vous et Streambe.",
+    termsSubscriptionTitle: "Codes d'abonnement",
+    termsSubscriptionPoints: [
+      "Streambe fournit des codes d'abonnement qui donnent accès à des services de streaming sélectionnés pour une période spécifique, comme indiqué lors du processus d'achat.",
+      "Les codes d'abonnement sont destinés à un usage personnel uniquement. Vous ne pouvez pas les partager, les revendre, les transférer ou les distribuer à d'autres personnes.",
+      "Streambe peut modifier, mettre à jour, suspendre ou arrêter tout code d'abonnement ou service connexe sans préavis."
+    ],
+    termsOrdersTitle: "Commandes et paiements",
+    termsOrdersPoints: [
+      "Pour passer une commande, vous devez choisir un plan d'abonnement, fournir les informations requises et effectuer le paiement en utilisant les méthodes de paiement disponibles.",
+      "Vous êtes responsable de saisir des informations correctes, en particulier votre adresse e-mail, car les codes d'abonnement peuvent y être livrés.",
+      "Les prix, offres et disponibilités peuvent changer à tout moment sans préavis."
+    ],
+    termsResponsibilitiesTitle: "Responsabilités de l'utilisateur",
+    termsResponsibilitiesPoints: [
+      "Fournir des informations précises et à jour.",
+      "Utiliser nos services uniquement à des fins légales.",
+      "Éviter toute action susceptible d'endommager, interrompre ou affecter la sécurité de notre site Web.",
+      "Garder vos informations de compte privées.",
+      "Informer Streambe si vous suspectez un accès non autorisé à votre compte."
+    ],
+    termsAvailabilityTitle: "Disponibilité du service",
+    termsAvailabilityText1: "Streambe ne garantit pas que le service sera toujours disponible, ininterrompu ou sans erreur.",
+    termsAvailabilityText2: "La qualité du streaming et la disponibilité du contenu peuvent varier en fonction de plusieurs facteurs, notamment la connexion Internet, l'appareil, l'état du serveur et la localisation géographique.",
+    termsLiabilityTitle: "Limitation de responsabilité",
+    termsLiabilityText: "Streambe n'est pas responsable des pertes, dommages, interruptions ou désagréments directs ou indirects causés par l'utilisation de notre site Web, des codes d'abonnement ou des services associés. Vous utilisez le site Web et les services à vos propres risques.",
+    termsSuspensionTitle: "Suspension ou résiliation",
+    termsSuspensionText: "Streambe peut suspendre ou résilier l'accès à ses services si un utilisateur viole ces conditions, fournit de fausses informations, utilise incorrectement des codes d'abonnement ou se livre à une activité suspecte ou frauduleuse.",
+    termsChangesTitle: "Modifications de ces conditions",
+    termsChangesText: "Streambe se réserve le droit de mettre à jour ou de modifier ces conditions générales à tout moment. Il est de votre responsabilité de consulter régulièrement cette page. Votre utilisation continue du site Web après la publication des modifications signifie que vous acceptez les conditions révisées.",
 
     // Hero Section
     heroTitle: "StreamBe IPTV Belgique",
