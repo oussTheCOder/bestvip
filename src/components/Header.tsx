@@ -3,28 +3,38 @@ import Link from 'next/link';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Header: React.FC = () => {
+    const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
     const { language, setLanguage, t } = useLanguage();
+
+    const closeMobileMenu = () => setMobileMenuOpen(false);
 
     return (
         <header className="header">
             <div className="container">
                 <div className="header-content">
                     <h1>{t('headerTitle')}</h1>
-                    <nav>
+
+                    <button
+                        className="menu-toggle"
+                        aria-label="Toggle menu"
+                        aria-expanded={mobileMenuOpen}
+                        onClick={() => setMobileMenuOpen((prev) => !prev)}
+                        type="button"
+                    >
+                        {mobileMenuOpen ? 'Close' : 'Menu'}
+                    </button>
+
+                    <nav className={mobileMenuOpen ? 'header-nav open' : 'header-nav'}>
                         <ul>
-                            <li><Link href="/">{t('navHome')}</Link></li>
-                            <li><Link href="/#pricing">{t('navPricing')}</Link></li>
-                            <li><Link href="/#why">{t('navWhy')}</Link></li>
-                            <li><Link href="/about">{t('navAbout')}</Link></li>
+                            <li><Link href="/" onClick={closeMobileMenu}>{t('navHome')}</Link></li>
+                            <li><Link href="/#pricing" onClick={closeMobileMenu}>{t('navPricing')}</Link></li>
+                            <li><Link href="/#why" onClick={closeMobileMenu}>{t('navWhy')}</Link></li>
+                            <li><Link href="/about" onClick={closeMobileMenu}>{t('navAbout')}</Link></li>
                         </ul>
                     </nav>
+
                     {/* Language Toggle */}
-                    <div style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '10px',
-                        marginLeft: '20px'
-                    }}>
+                    <div className="header-language">
                         <span style={{ color: '#b0b0b0', fontSize: '0.9rem' }}>{t('languageToggle')}:</span>
                         <div style={{
                             background: 'rgba(20, 20, 30, 0.8)',

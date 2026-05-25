@@ -118,8 +118,7 @@ const IptvKopenBelgiePage: React.FC = () => {
 
             <h2 style={{ marginBottom: '16px' }}>{content.relatedTitle}</h2>
             <div style={{ display: 'flex', gap: '18px', flexWrap: 'wrap' }}>
-              <Link href="/iptv-belgie">IPTV Belgie</Link>
-              <Link href="/iptv-abonnement-belgie">IPTV abonnement Belgie</Link>
+              <Link href="/#pricing">{content.ctaSecondary}</Link>
             </div>
           </div>
         </section>
