@@ -2,14 +2,14 @@
 export const translations = {
   nl: {
     // Header & Navigation
-    headerTitle: "🎬 StreamBe IPTV",
+    headerTitle: "StreamBe IPTV",
     navHome: "Home",
     navPricing: "Prijzen",
     navWhy: "Waarom Ons",
     navAbout: "Over Ons",
 
     // Hero Section
-    heroTitle: "🎬 StreamBe IPTV België & Nederland",
+    heroTitle: "StreamBe IPTV België & Nederland",
     heroSubtitle: "Geniet van 33.000+ live kanalen en 170.000+ films en series in HD/4K, met snelle activatie en stabiele streaming in België en Nederland.",
     heroButton1: "Nu Kopen",
     heroButton2: "Gratis Test",
@@ -377,14 +377,14 @@ export const translations = {
 
   en: {
     // Header & Navigation
-    headerTitle: "🎬 StreamBe IPTV",
+    headerTitle: "StreamBe IPTV",
     navHome: "Home",
     navPricing: "Pricing",
     navWhy: "Why Us",
     navAbout: "About",
 
     // Hero Section
-    heroTitle: "🎬 StreamBe IPTV Belgium & Netherlands",
+    heroTitle: "StreamBe IPTV Belgium & Netherlands",
     heroSubtitle: "Enjoy 33,000+ live channels and 170,000+ movies and series in HD/4K, with fast activation and stable streaming in Belgium and the Netherlands.",
     heroButton1: "Buy Now",
     heroButton2: "Free Trial",
@@ -752,14 +752,14 @@ export const translations = {
 
   fr: {
     // Header & Navigation
-    headerTitle: "🎬 StreamBe IPTV",
+    headerTitle: "StreamBe IPTV",
     navHome: "Accueil",
     navPricing: "Tarifs",
     navWhy: "Pourquoi Nous",
     navAbout: "À Propos",
 
     // Hero Section
-    heroTitle: "🎬 StreamBe IPTV Belgique",
+    heroTitle: "StreamBe IPTV Belgique",
     heroSubtitle: "Profitez de 33 000+ chaînes en direct et 170 000+ films et séries en HD/4K, avec une activation rapide et un streaming stable en Belgique et aux Pays-Bas.",
     heroButton1: "Acheter",
     heroButton2: "Test Gratuit",

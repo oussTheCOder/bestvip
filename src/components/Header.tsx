@@ -12,7 +12,20 @@ const Header: React.FC = () => {
         <header className="header">
             <div className="container">
                 <div className="header-content">
-                    <h1>{t('headerTitle')}</h1>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                        <Link href="/" style={{ display: 'inline-flex', alignItems: 'center', textDecoration: 'none' }}>
+                            <img
+                                src="/images/site-logo.png"
+                                alt="StreamBe logo"
+                                width={48}
+                                height={48}
+                                style={{ display: 'block', borderRadius: '12px' }}
+                            />
+                            <span style={{ marginLeft: '10px', fontSize: '1rem', color: '#fff', fontWeight: 700 }}>
+                                StreamBe
+                            </span>
+                        </Link>
+                    </div>
 
                     <button
                         className="menu-toggle"

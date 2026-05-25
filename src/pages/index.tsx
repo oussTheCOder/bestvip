@@ -16,10 +16,10 @@ const Home: React.FC = () => {
   const { language } = useLanguage();
   const router = useRouter();
   const content = translations[language];
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://yourdomain.com';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://streambe.net';
   const canonicalPath = router.asPath.split('?')[0].split('#')[0];
   const canonicalUrl = `${siteUrl}${canonicalPath === '/' ? '' : canonicalPath}`;
-  const ogImageUrl = `${siteUrl}/images/modern-devices.svg`;
+  const ogImageUrl = `${siteUrl}/images/site-logo.png`;
   const localeHref = (locale: string, path: string) => {
     if (locale === 'nl') {
       return `${siteUrl}${path}`;
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
     '@type': 'Organization',
     name: 'StreamBe IPTV',
     url: siteUrl,
-    logo: `${siteUrl}/images/modern-devices.svg`,
+    logo: `${siteUrl}/images/site-logo.png`,
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer support',
@@ -57,7 +57,7 @@ const Home: React.FC = () => {
         <meta property="og:description" content={content.homeDescription} />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:image" content={ogImageUrl} />
-        <meta property="og:image:type" content="image/svg+xml" />
+        <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={content.homeTitle} />
         <meta name="twitter:description" content={content.homeDescription} />
