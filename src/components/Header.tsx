@@ -43,6 +43,7 @@ const Header: React.FC = () => {
                             <li><Link href="/#pricing" onClick={closeMobileMenu}>{t('navPricing')}</Link></li>
                             <li><Link href="/#why" onClick={closeMobileMenu}>{t('navWhy')}</Link></li>
                             <li><Link href="/about" onClick={closeMobileMenu}>{t('navAbout')}</Link></li>
+                            <li><Link href="/blog" onClick={closeMobileMenu}>Blog</Link></li>
                         </ul>
                     </nav>
 

@@ -35,6 +35,15 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
       priority: '0.7',
     },
     {
+      path: '/refund-policy',
+      alternates: {
+        nl: `${siteUrl}/refund-policy`,
+        en: `${siteUrl}/en/refund-policy`,
+        fr: `${siteUrl}/fr/refund-policy`,
+      },
+      priority: '0.7',
+    },
+    {
       path: '/iptv-kopen-belgie',
       alternates: {
         nl: `${siteUrl}/iptv-kopen-belgie`,

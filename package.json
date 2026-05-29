@@ -10,14 +10,16 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.15",
+    "gray-matter": "^4.0.3",
+    "marked": "^18.0.4",
     "next": "16.2.2",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
   "devDependencies": {
-    "typescript": "5.9.3",
+    "@types/node": "24.5.2",
     "@types/react": "19.2.2",
-    "@types/node": "24.5.2"
+    "typescript": "5.9.3"
   },
   "license": "MIT"
 }

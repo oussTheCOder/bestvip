@@ -8,6 +8,7 @@ export const translations = {
     navWhy: "Waarom Ons",
     navAbout: "Over Ons",
     navTerms: "Voorwaarden",
+    navRefund: "Terugbetaling",
 
     termsTitle: "Algemene voorwaarden",
     termsIntroTitle: "Introductie",
@@ -46,6 +47,49 @@ export const translations = {
     termsSuspensionText: "Streambe kan de toegang tot de diensten opschorten of beëindigen als een gebruiker deze voorwaarden overtreedt, onjuiste informatie verstrekt, abonnementscodes misbruikt of zich verdacht of frauduleus gedraagt.",
     termsChangesTitle: "Wijzigingen in deze voorwaarden",
     termsChangesText: "Streambe behoudt zich het recht voor om deze algemene voorwaarden elk moment bij te werken of te wijzigen. Het is uw verantwoordelijkheid deze pagina regelmatig te controleren. Voortgezet gebruik van de website na publicatie van wijzigingen betekent dat u de herziene voorwaarden accepteert.",
+
+    refundTitle: "Terugbetalingsbeleid",
+    refundIntroText1: "Bij Streambe streven we naar een soepel en betrouwbaar aankoopproces. Dit terugbetalingsbeleid legt uit hoe verzoeken om terugbetaling worden behandeld voor digitale abonnementscodes die via onze website zijn gekocht.",
+    refundIntroText2: "Door een bestelling te plaatsen op Streambe gaat u akkoord met de voorwaarden van dit terugbetalingsbeleid.",
+    refundDigitalNoticeTitle: "Digitale productmelding",
+    refundDigitalNoticeText: "Streambe verkoopt digitale abonnementscodes die elektronisch worden geleverd. Omdat deze producten na levering kunnen worden geopend en gebruikt, worden alle aankopen over het algemeen als definitief beschouwd zodra de code is verzonden of geactiveerd.",
+    refundConditionsTitle: "Terugbetalingsvoorwaarden",
+    refundConditionsPoints: [
+      "Het maandabonnement is onder geen enkele omstandigheid terugbetaalbaar.",
+      "Voor andere abonnementen kunnen refundverzoeken alleen worden overwogen binnen de eerste 7 dagen na aankoop.",
+      "Na 7 dagen worden geen terugbetalingen geaccepteerd.",
+      "Alle verzoeken om terugbetaling zijn onderworpen aan verificatie door Streambe."
+    ],
+    refundNonRefundableTitle: "Niet-terugbetaalbare gevallen",
+    refundNonRefundablePoints: [
+      "De abonnementscode is al geleverd en geactiveerd.",
+      "De klant heeft een eenmaandsabonnement gekocht.",
+      "Het verzoek om terugbetaling wordt gedaan na 7 dagen vanaf de aankoopdatum.",
+      "De klant heeft van gedachten veranderd na het voltooien van de aankoop.",
+      "Onjuiste informatie is opgegeven tijdens het afrekenen.",
+      "Het probleem wordt veroorzaakt door het apparaat, de app, de internetverbinding of een dienst van derden van de klant.",
+      "Het abonnement is gedeeld, doorverkocht, overgedragen of gebruikt door een andere persoon.",
+      "De abonnementstermijn is verlopen of sterk gebruikt.",
+      "De klant heeft de verstrekte activeringsinstructies niet gevolgd."
+    ],
+    refundReplacementTitle: "Vervanging vóór terugbetaling",
+    refundReplacementText1: "Als een abonnementscode onjuist, ongeldig of niet werkt, zal Streambe het probleem beoordelen en kan er indien mogelijk een vervangende code worden aangeboden.",
+    refundReplacementText2: "Een terugbetaling kan alleen worden overwogen als het probleem door Streambe is bevestigd en er geen vervanging of technische oplossing beschikbaar is.",
+    refundReplacementText3: "Streambe behoudt zich het recht voor om de status van de abonnementscode te verifiëren voordat een vervanging of terugbetaling wordt goedgekeurd.",
+    refundProcessTitle: "Proces voor terugbetalingsverzoek",
+    refundProcessPoints: [
+      "Om een terugbetaling aan te vragen of een probleem te melden, moeten klanten contact opnemen met Streambe via WhatsApp.",
+      "De klant moet de volgende informatie verstrekken.",
+      "E-mailadres dat bij de aankoop is gebruikt.",
+      "Inloggegevens die verband houden met het abonnement, zoals gebruikersnaam of account-ID. Klanten moeten nooit hun wachtwoord delen.",
+      "Een duidelijke beschrijving van het probleem.",
+      "Screenshots of bewijs dat het probleem toont."
+    ],
+    refundProcessingTitle: "Terugbetalingsverwerkingstijd",
+    refundProcessingText1: "Als een terugbetaling wordt goedgekeurd, wordt deze indien mogelijk verwerkt met de oorspronkelijke betaalmethode.",
+    refundProcessingText2: "De verwerkingstijd van terugbetalingen kan variëren afhankelijk van de betaalprovider, bank of gebruikte betaalmethode.",
+    refundContactTitle: "Contactinformatie",
+    refundContactText: "Voor verzoeken om terugbetaling of ondersteuning kunt u Streambe contacteren via WhatsApp met de contactgegevens die op onze website worden vermeld. Streambe zal elk verzoek zorgvuldig beoordelen en de meest geschikte oplossing bieden.",
 
     // Hero Section
     heroTitle: "StreamBe IPTV België & Nederland",
@@ -365,6 +409,8 @@ export const translations = {
     footerButton: "Bekijk Prijsplannen",
     footerCopyright: "© {year} StreamBe IPTV. Alle rechten voorbehouden.",
     footerTagline: "Premium abonnement IPTV voor België & Nederland",
+    footerPagesTitle: "Pagina's",
+    footerContactTitle: "Contact",
 
     // About Page
     aboutTitle: "Over IPTV Belgie",
@@ -401,6 +447,23 @@ export const translations = {
     aboutCTAButton: "Bekijk Prijsplannen",
     aboutCTA: "Nu Aanmelden",
 
+    // Blog Section
+    blogPageTitle: "Blog",
+    blogPageSubtitle: "Uw hulpbron voor IPTV-gidsen, recensies en breuws",
+    blogCategoriesTitle: "Categorieën",
+    blogAllPosts: "Alle Artikelen",
+    blogAboutTitle: "Over Deze Blog",
+    blogAboutText: "Uw hulpbron voor alles wat IPTV betreft. Leer hoe u kunt instellen, problemen kunt oplossen en het meeste uit uw IPTV-ervaring kunt halen.",
+    blogBackToBlog: "← Terug naar Blog",
+    blogArticlesInCategory: "{count} artikelen in deze categorie",
+    blogNoPostsFound: "Nog geen blogberichten gevonden. Kom binnenkort terug!",
+    blogNoPostsInCategory: "Geen berichten gevonden in deze categorie.",
+    blogAppsCategoryName: "IPTV-apps",
+    blogSetupGuideCategoryName: "Setup-gids",
+    blogDevicesCategoryName: "IPTV-apparaten",
+    blogNewsCategoryName: "IPTV-nieuws",
+    blogReviewsCategoryName: "IPTV-reviews",
+
     // SEO
     homeTitle: "StreamBe IPTV België | Betrouwbaar IPTV abonnement kopen",
     homeDescription: "Kies StreamBe Standard met 24.000+ live kanalen en 160.000+ films en series, of Premium met 33.000+ live kanalen en 170.000+ films en series in HD/4K. Start snel en probeer eerst een 24 uur gratis test.",
@@ -422,6 +485,7 @@ export const translations = {
     navWhy: "Why Us",
     navAbout: "About",
     navTerms: "Terms",
+    navRefund: "Refund Policy",
 
     termsTitle: "Terms and Conditions",
     termsIntroTitle: "Introduction",
@@ -460,6 +524,49 @@ export const translations = {
     termsSuspensionText: "Streambe may suspend or terminate access to its services if a user violates these terms, provides false information, misuses subscription codes, or engages in suspicious or fraudulent activity.",
     termsChangesTitle: "Changes to These Terms",
     termsChangesText: "Streambe reserves the right to update or modify these Terms and Conditions at any time. It is your responsibility to review this page regularly. Your continued use of the website after changes are published means that you accept the revised terms.",
+
+    refundTitle: "Refund Policy",
+    refundIntroText1: "At Streambe, we aim to provide a smooth and reliable purchasing experience. This Refund Policy explains how refund requests are handled for digital subscription codes purchased through our website.",
+    refundIntroText2: "By placing an order on Streambe, you agree to the terms of this Refund Policy.",
+    refundDigitalNoticeTitle: "Digital Product Notice",
+    refundDigitalNoticeText: "Streambe sells digital subscription codes delivered electronically. Since these products can be accessed and used after delivery, all purchases are generally considered final once the code has been sent or activated.",
+    refundConditionsTitle: "Refund Conditions",
+    refundConditionsPoints: [
+      "The one-month subscription plan is not refundable under any circumstances.",
+      "For other subscription plans, refund requests may only be considered within the first 7 days after purchase.",
+      "After 7 days, refunds will not be accepted.",
+      "All refund requests are subject to verification by Streambe."
+    ],
+    refundNonRefundableTitle: "Non-Refundable Cases",
+    refundNonRefundablePoints: [
+      "The subscription code has already been delivered and activated.",
+      "The customer purchased a one-month subscription plan.",
+      "The refund request is made after 7 days from the purchase date.",
+      "The customer changed their mind after completing the purchase.",
+      "Incorrect information was provided during checkout.",
+      "The issue is caused by the customer’s device, application, internet connection, or third-party service.",
+      "The subscription was shared, resold, transferred, or used by another person.",
+      "The subscription period has expired or has been heavily used.",
+      "The customer failed to follow the provided activation instructions."
+    ],
+    refundReplacementTitle: "Replacement Before Refund",
+    refundReplacementText1: "If a subscription code is incorrect, invalid, or not working, Streambe will review the issue and may provide a replacement code when possible.",
+    refundReplacementText2: "A refund may only be considered if the issue is confirmed by Streambe and no replacement or technical solution is available.",
+    refundReplacementText3: "Streambe reserves the right to verify the status of the subscription code before approving any replacement or refund.",
+    refundProcessTitle: "Refund Request Process",
+    refundProcessPoints: [
+      "To request a refund or report an issue, customers must contact Streambe via WhatsApp.",
+      "The customer must provide the following information.",
+      "Email address used during purchase.",
+      "Login details related to the subscription, such as username or account ID. Customers should never share their password.",
+      "A clear description of the issue.",
+      "Screenshots or proof showing the problem."
+    ],
+    refundProcessingTitle: "Refund Processing Time",
+    refundProcessingText1: "If a refund is approved, it will be processed using the original payment method whenever possible.",
+    refundProcessingText2: "Refund processing times may vary depending on the payment provider, bank, or payment method used.",
+    refundContactTitle: "Contact Information",
+    refundContactText: "For refund or support requests, please contact Streambe via WhatsApp using the contact details provided on our website. Streambe will review each request carefully and provide the most suitable solution.",
 
     // Hero Section
     heroTitle: "StreamBe IPTV Belgium & Netherlands",
@@ -779,6 +886,8 @@ export const translations = {
     footerButton: "View Pricing Plans",
     footerCopyright: "© {year} StreamBe IPTV. All rights reserved.",
     footerTagline: "Premium IPTV streaming for Belgium & Netherlands",
+    footerPagesTitle: "Pages",
+    footerContactTitle: "Contact",
 
     // About Page
     aboutTitle: "About StreamBe IPTV",
@@ -815,6 +924,23 @@ export const translations = {
     aboutCTAButton: "View Pricing Plans",
     aboutCTA: "Start now",
 
+    // Blog Section
+    blogPageTitle: "Blog",
+    blogPageSubtitle: "Your go-to resource for IPTV guides, reviews, and industry news",
+    blogCategoriesTitle: "Categories",
+    blogAllPosts: "All Posts",
+    blogAboutTitle: "About This Blog",
+    blogAboutText: "Your go-to resource for everything IPTV. Learn how to set up, troubleshoot, and get the most out of your IPTV experience.",
+    blogBackToBlog: "← Back to Blog",
+    blogArticlesInCategory: "{count} articles in this category",
+    blogNoPostsFound: "No blog posts found yet. Check back soon!",
+    blogNoPostsInCategory: "No posts found in this category yet.",
+    blogAppsCategoryName: "IPTV Apps",
+    blogSetupGuideCategoryName: "Setup Guide",
+    blogDevicesCategoryName: "IPTV Devices",
+    blogNewsCategoryName: "IPTV News",
+    blogReviewsCategoryName: "IPTV Reviews",
+
     // SEO
     homeTitle: "StreamBe IPTV Belgium | Reliable IPTV subscription",
     homeDescription: "Choose StreamBe Standard with 24,000+ live channels and 160,000+ movies and series, or Premium with 33,000+ live channels and 170,000+ movies and series in HD/4K. Start streaming fast and try a free 24-hour test first.",
@@ -836,6 +962,7 @@ export const translations = {
     navWhy: "Pourquoi Nous",
     navAbout: "À Propos",
     navTerms: "Conditions",
+    navRefund: "Remboursement",
 
     termsTitle: "Conditions générales",
     termsIntroTitle: "Introduction",
@@ -874,6 +1001,49 @@ export const translations = {
     termsSuspensionText: "Streambe peut suspendre ou résilier l'accès à ses services si un utilisateur viole ces conditions, fournit de fausses informations, utilise incorrectement des codes d'abonnement ou se livre à une activité suspecte ou frauduleuse.",
     termsChangesTitle: "Modifications de ces conditions",
     termsChangesText: "Streambe se réserve le droit de mettre à jour ou de modifier ces conditions générales à tout moment. Il est de votre responsabilité de consulter régulièrement cette page. Votre utilisation continue du site Web après la publication des modifications signifie que vous acceptez les conditions révisées.",
+
+    refundTitle: "Politique de remboursement",
+    refundIntroText1: "Chez Streambe, nous visons une expérience d'achat fluide et fiable. Cette politique de remboursement explique comment les demandes de remboursement sont traitées pour les codes d'abonnement numériques achetés via notre site Web.",
+    refundIntroText2: "En passant une commande sur Streambe, vous acceptez les conditions de cette politique de remboursement.",
+    refundDigitalNoticeTitle: "Avis sur le produit numérique",
+    refundDigitalNoticeText: "Streambe vend des codes d'abonnement numériques livrés électroniquement. Étant donné que ces produits peuvent être consultés et utilisés après livraison, tous les achats sont généralement considérés comme définitifs dès l'envoi ou l'activation du code.",
+    refundConditionsTitle: "Conditions de remboursement",
+    refundConditionsPoints: [
+      "Le plan d'abonnement d'un mois n'est remboursable en aucune circonstance.",
+      "Pour les autres plans d'abonnement, les demandes de remboursement ne peuvent être prises en compte que dans les 7 premiers jours suivant l'achat.",
+      "Après 7 jours, les remboursements ne seront pas acceptés.",
+      "Toutes les demandes de remboursement sont soumises à la vérification par Streambe."
+    ],
+    refundNonRefundableTitle: "Cas non remboursables",
+    refundNonRefundablePoints: [
+      "Le code d'abonnement a déjà été livré et activé.",
+      "Le client a acheté un plan d'abonnement d'un mois.",
+      "La demande de remboursement est faite après 7 jours à compter de la date d'achat.",
+      "Le client a changé d'avis après avoir finalisé l'achat.",
+      "Des informations incorrectes ont été fournies lors du paiement.",
+      "Le problème est causé par l'appareil, l'application, la connexion Internet ou le service tiers du client.",
+      "L'abonnement a été partagé, revendu, transféré ou utilisé par une autre personne.",
+      "La période d'abonnement a expiré ou a été fortement utilisée.",
+      "Le client n'a pas suivi les instructions d'activation fournies."
+    ],
+    refundReplacementTitle: "Remplacement avant remboursement",
+    refundReplacementText1: "Si un code d'abonnement est incorrect, invalide ou ne fonctionne pas, Streambe examinera le problème et pourra fournir un code de remplacement lorsque cela est possible.",
+    refundReplacementText2: "Un remboursement ne peut être envisagé que si le problème est confirmé par Streambe et qu'aucun remplacement ou solution technique n'est disponible.",
+    refundReplacementText3: "Streambe se réserve le droit de vérifier le statut du code d'abonnement avant d'approuver tout remplacement ou remboursement.",
+    refundProcessTitle: "Processus de demande de remboursement",
+    refundProcessPoints: [
+      "Pour demander un remboursement ou signaler un problème, les clients doivent contacter Streambe via WhatsApp.",
+      "Le client doit fournir les informations suivantes.",
+      "L'adresse e-mail utilisée lors de l'achat.",
+      "Les informations de connexion liées à l'abonnement, telles que le nom d'utilisateur ou l'ID de compte. Les clients ne doivent jamais partager leur mot de passe.",
+      "Une description claire du problème.",
+      "Des captures d'écran ou des preuves montrant le problème."
+    ],
+    refundProcessingTitle: "Délai de traitement du remboursement",
+    refundProcessingText1: "Si un remboursement est approuvé, il sera traité en utilisant le mode de paiement d'origine dans la mesure du possible.",
+    refundProcessingText2: "Les délais de traitement des remboursements peuvent varier en fonction du fournisseur de paiement, de la banque ou du mode de paiement utilisé.",
+    refundContactTitle: "Informations de contact",
+    refundContactText: "Pour les demandes de remboursement ou d'assistance, veuillez contacter Streambe via WhatsApp en utilisant les coordonnées fournies sur notre site Web. Streambe examinera chaque demande avec soin et proposera la solution la plus adaptée.",
 
     // Hero Section
     heroTitle: "StreamBe IPTV Belgique",
@@ -1164,6 +1334,8 @@ export const translations = {
     footerButton: "Voir les offres",
     footerCopyright: "© {year} StreamBe IPTV. Tous droits réservés.",
     footerTagline: "Abonnement IPTV premium pour Belgique & Pays-Bas",
+    footerPagesTitle: "Pages",
+    footerContactTitle: "Contact",
 
     // About Page
     aboutTitle: "À propos de StreamBe IPTV",
@@ -1205,6 +1377,23 @@ export const translations = {
     homeDescription: "Choisissez StreamBe Standard avec 24 000+ chaînes en direct et 160 000+ films et séries, ou Premium avec 33 000+ chaînes en direct et 170 000+ films et séries en HD/4K. Activez rapidement et profitez d’un test gratuit de 24 heures.",
     homeKeywords: "iptv belgique, abonnement iptv, streambe iptv, acheter iptv",
     aboutKeywords: "streambe iptv, iptv belgique, abonnement iptv, acheter iptv",
+
+    // Blog Section
+    blogPageTitle: "Blog",
+    blogPageSubtitle: "Votre ressource pour les guides IPTV, les critiques et l'actualité du secteur",
+    blogCategoriesTitle: "Catégories",
+    blogAllPosts: "Tous les Articles",
+    blogAboutTitle: "À Propos de Ce Blog",
+    blogAboutText: "Votre ressource pour tout ce qui concerne l'IPTV. Apprenez à configurer, dépanner et tirer le meilleur parti de votre expérience IPTV.",
+    blogBackToBlog: "← Retour au Blog",
+    blogArticlesInCategory: "{count} articles dans cette catégorie",
+    blogNoPostsFound: "Aucun article de blog trouvé pour le moment. Revenez bientôt!",
+    blogNoPostsInCategory: "Aucun article trouvé dans cette catégorie pour le moment.",
+    blogAppsCategoryName: "Applications IPTV",
+    blogSetupGuideCategoryName: "Guide de Configuration",
+    blogDevicesCategoryName: "Appareils IPTV",
+    blogNewsCategoryName: "Actualités IPTV",
+    blogReviewsCategoryName: "Critiques IPTV",
 
     // Language Toggle
     languageToggle: "Language",
