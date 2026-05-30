@@ -13,6 +13,10 @@ const BLOG_DIR = path.join(process.cwd(), 'src/content/blog');
 type Language = 'en' | 'nl' | 'fr';
 
 export function getBlogPosts(language: Language = 'en'): BlogListItem[] {
+  if (!fs.existsSync(BLOG_DIR)) {
+    return [];
+  }
+  
   const files = fs.readdirSync(BLOG_DIR).filter(file => file.endsWith(`.${language}.md`));
   
   const posts: BlogListItem[] = files.map(file => {
@@ -67,6 +71,10 @@ export function getBlogPostsByCategory(category: BlogCategory, language: Languag
 export function getAllBlogSlugs() {
   const languages: Language[] = ['en', 'nl', 'fr'];
   const slugs: any[] = [];
+  
+  if (!fs.existsSync(BLOG_DIR)) {
+    return slugs;
+  }
   
   languages.forEach(lang => {
     const files = fs.readdirSync(BLOG_DIR).filter(file => file.endsWith(`.${lang}.md`));
