@@ -37,7 +37,7 @@ export default function BlogCategoryPage({ category, posts, postCounts }: BlogCa
           <Link href="/blog" className={styles.backLink}>{t('blogBackToBlog' as any)}</Link>
           <h1 className={styles.title}>{t(categoryNameKey)}</h1>
           <p className={styles.subtitle}>
-            {t('blogArticlesInCategory' as any, { count: posts.length }).replace('{count}', posts.length.toString())}
+            {t('blogArticlesInCategory' as any, { count: posts.length })}
           </p>
         </div>
 

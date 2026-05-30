@@ -5,7 +5,7 @@ import { translations, Language, TranslationKey } from '../utils/translations';
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
-  t: (key: TranslationKey) => string;
+  t: (key: TranslationKey, params?: Record<string, string | number>) => string;
   getNestedValue: (obj: any, path: string) => any;
 }
 
@@ -27,10 +27,16 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
     return path.split('.').reduce((current, key) => current?.[key], obj);
   };
 
-  const t = (key: TranslationKey): string => {
+  const t = (key: TranslationKey, params?: Record<string, string | number>): string => {
     const translation = translations[language][key];
     if (typeof translation === 'string') {
-      return translation.replace('{year}', new Date().getFullYear().toString());
+      let result = translation.replace('{year}', new Date().getFullYear().toString());
+      if (params) {
+        Object.entries(params).forEach(([paramKey, paramValue]) => {
+          result = result.replace(`{${paramKey}}`, paramValue.toString());
+        });
+      }
+      return result;
     }
     return key;
   };
