@@ -2,7 +2,14 @@ import { BlogListItem, BlogCategory, BLOG_CATEGORIES } from '@/types/blog';
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { marked } from 'marked';
+import { marked, Renderer } from 'marked';
+
+const renderer = new Renderer();
+renderer.link = ({ href, text }) => {
+  return `<a href="${href}" target="_blank" rel="noopener noreferrer">${text}</a>`;
+};
+
+marked.setOptions({ renderer });
 
 // This file should only be imported in getStaticProps/getStaticPaths
 if (typeof window !== 'undefined') {
@@ -28,7 +35,7 @@ export function getBlogPosts(language: Language = 'en'): BlogListItem[] {
       slug: file.replace(`.${language}.md`, ''),
       title: data.title,
       excerpt: data.excerpt,
-      date: data.date,
+      date: data.date instanceof Date ? data.date.toISOString().split('T')[0] : data.date,
       categories: data.categories || [],
       featured: data.featured || false,
       image: data.image,
@@ -54,7 +61,7 @@ export function getBlogPost(slug: string, language: Language = 'en') {
     slug,
     title: data.title,
     excerpt: data.excerpt,
-    date: data.date,
+    date: data.date instanceof Date ? data.date.toISOString().split('T')[0] : data.date,
     categories: data.categories || [],
     featured: data.featured || false,
     image: data.image,
